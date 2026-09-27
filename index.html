@@ -1,0 +1,700 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>名古屋行程地圖</title>
+<link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; overflow: hidden; }
+
+  #map {
+    position: fixed;
+    inset: 0;
+    height: 100vh;
+    height: 100dvh;
+  }
+
+  #controls {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    max-width: min(60vw, calc(100vw - 20px));
+  }
+
+  #controls button {
+    padding: 7px 12px;
+    border: none;
+    border-radius: 6px;
+    font: 13px system-ui, sans-serif;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .15);
+    background: rgba(255, 255, 255, .95);
+    color: #333;
+    /* 手機上點擊目標至少 36px 高,避免誤觸 */
+    min-height: 36px;
+  }
+
+  #controls .sep {
+    width: 1px;
+    background: #ccc;
+    margin: 0 4px;
+  }
+
+  #legend {
+    position: fixed;
+    top: 12px;
+    right: 12px;
+    z-index: 10;
+    background: rgba(255, 255, 255, .95);
+    padding: 12px 14px;
+    border-radius: 8px;
+    font: 13px/1.6 system-ui, sans-serif;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .15);
+  }
+
+  #legend .swatch {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    margin-right: 6px;
+  }
+
+  #legend .hint {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid #ddd;
+    font-size: 12px;
+    color: #666;
+  }
+
+  #legend .keys { color: #999; }
+
+  /* 手機:圖例改到左下角並縮小,鍵盤快捷鍵提示直接隱藏(觸控裝置沒有鍵盤) */
+  @media (max-width: 640px) {
+    #controls {
+      max-width: calc(100vw - 20px);
+      gap: 5px;
+    }
+    #controls button {
+      padding: 6px 9px;
+      font-size: 12px;
+    }
+    #legend {
+      top: auto;
+      right: auto;
+      bottom: calc(10px + env(safe-area-inset-bottom, 0px));
+      left: 10px;
+      padding: 8px 10px;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+    #legend .keys { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<div id="map"></div>
+<div id="controls"></div>
+<div id="legend"></div>
+
+<script src="https://unpkg.com/deck.gl@9.0.0/dist.min.js"></script>
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+
+<script>
+const HOME = {
+  name: '住宿(榮)',
+  position: [136.9080, 35.1709]    // TODO: 飯店確定後改成實際座標
+};
+
+const TYPE_COLORS = {
+  'place':       [ 76, 124, 176],
+  'food':        [214,  90,  60],
+  'supermarket': [ 96, 154, 108],
+};
+const TYPE_LABELS = { 'place': '景點', 'food': '美食', 'supermarket': '超市' };
+const RESTROOM_COLOR = [150, 100, 190];
+// 總覽模式的路線:七天共用同一個顏色,不編碼是哪一天。
+// 淡暖沙色,跟網站主題的暖色調一致;飽和度刻意壓低,讓路線是「底層的脈絡」
+// 而不是跟景點搶注意力的主角。
+const OVERVIEW_ARC_COLOR = [206, 154, 120, 175];
+const ARC_LIFT = 900;  
+const COLUMN_SCALE = 180;
+
+// ── 狀態 ──
+// filter 可能是: 'all' | 'planned' | 'Day1' ... 'Day7'
+let allSpots = [];
+let filter = 'all';
+let days = [];
+let overlay = null;
+let map = null;
+let showArcs = true;
+let showRestrooms = false;
+
+const isPlanned = d => d.days?.length > 0;
+
+// 這筆資料在目前的篩選下,是不是「被強調」的?
+function isActive(d) {
+  if (filter === 'all')     return isPlanned(d);
+  if (filter === 'planned') return isPlanned(d);
+  return d.days?.includes(filter);        // 單日模式
+}
+
+// 這筆資料在目前的篩選下,要不要顯示?
+function isVisible(d) {
+  if (filter === 'all')     return true;
+  if (filter === 'planned') return isPlanned(d);
+  return true;                            // 單日模式:其他點淡化但保留(當作候選參考)
+}
+
+// 標籤去重:把候選點投影到螢幕座標,同一塊區域只留一個標籤,
+// 興致指數高的優先。每次視角改變後重算 —— 拉近會自動浮出更多標籤。
+// 標籤是扁的(寬 >> 高),所以用橢圓判定而不是圓形 —— 用圓形會過度懲罰
+// 垂直方向,把上下錯開、其實看得清楚的標籤也砍掉。
+// 坑 20 的橢圓版遺跡,已被逐標籤矩形取代
+//const LABEL_GAP_X = 42;
+//const LABEL_GAP_Y = 18;
+
+// 標籤實際字級:sizeUnits 是 meters,所以像素大小隨縮放變動
+function labelFontPx() {
+  const lat = map.getCenter().lat;
+  const mpp = 156543.03392 * Math.cos(lat * Math.PI / 180) / Math.pow(2, map.getZoom());
+  return Math.min(17, Math.max(10, 120 / mpp));   // 對應 getSize:120 與 min/max
+}
+
+function pickLabels() {
+  if (!map) return [];
+  const fontPx = labelFontPx();
+  const candidates = allSpots.filter(isVisible).filter(isActive);
+  const byPriority = [...candidates].sort((a, b) => (b.interest ?? 0) - (a.interest ?? 0));
+
+  const kept = [];
+  const boxes = [];
+  for (const d of byPriority) {
+    const p = map.project(topPosition(d));
+
+    // 全形字寬約等於字級,半形約 0.55 倍
+    const cjk = (d.name.match(/[\u3000-\u9fff\uff00-\uffef]/g) || []).length;
+    const w = cjk * fontPx + (d.name.length - cjk) * fontPx * 0.55 + 12;
+    const h = fontPx + 8;
+
+    const clear = boxes.every(b =>
+      Math.abs(p.x - b.x) > (w + b.w) / 2 ||
+      Math.abs(p.y - b.y) > (h + b.h) / 2
+    );
+    if (clear) {
+      boxes.push({ x: p.x, y: p.y, w, h });
+      kept.push(d);
+    }
+  }
+  return kept;
+}
+
+// 最近鄰居法推算某一天的環路:飯店 → 最近的未造訪點 → ... → 飯店
+function buildDayRoute(day) {
+  const dayPoints = allSpots.filter(d => d.days?.includes(day));
+  if (dayPoints.length === 0) return [];
+
+  const dist = (a, b) => Math.hypot(
+    a.position[0] - b.position[0],
+    a.position[1] - b.position[1]
+  );
+  const remaining = [...dayPoints];
+  let current = HOME;
+  const route = [HOME];
+
+  while (remaining.length > 0) {
+    let nearestIdx = 0, nearestDist = Infinity;
+    remaining.forEach((p, i) => {
+      const d = dist(current, p);
+      if (d < nearestDist) { nearestDist = d; nearestIdx = i; }
+    });
+    current = remaining.splice(nearestIdx, 1)[0];
+    route.push(current);
+  }
+  // 回傳封閉迴圈的頂點,尾端不重複 HOME(閉合由後面的幾何處理負責)
+  return route;
+}
+
+// ── 把折線變成有弧度的迴圈 ──
+// 1. 每段的中點往「行進方向的左側」推出去,讓來回的兩段自然分開成一個透鏡形
+// 2. 用樣條穿過「景點 → 外推中點 → 景點」,把轉角磨圓但仍精準通過每個景點
+// 沒有第 1 步的話,像 Day2 那種「去程/回程同一條路」的行程會疊成一條直線。
+const LOOP_BOW = 0.15;      // 外推幅度,相對於該段長度
+const CURVE_SAMPLES = 24;   // 每個控制點之間取樣幾個點
+
+function bowedVertices(waypoints) {
+  const verts = [];
+  const legs = [];
+  for (let i = 0; i < waypoints.length; i++) {
+    const a = waypoints[i].position;
+    const b = waypoints[(i + 1) % waypoints.length].position;
+    const dx = b[0] - a[0], dy = b[1] - a[1];
+    const len = Math.hypot(dx, dy);
+
+    verts.push(a);
+    legs.push(i);
+    if (len > 0) {
+      const nx = -dy / len, ny = dx / len;   // 左側法向量
+      verts.push([
+        (a[0] + b[0]) / 2 + nx * len * LOOP_BOW,
+        (a[1] + b[1]) / 2 + ny * len * LOOP_BOW
+      ]);
+      legs.push(i);
+    }
+  }
+  return { verts, legs };
+}
+
+// 向心 Catmull-Rom(alpha = 0.5)。用內插型樣條而不是 Chaikin 這類切角演算法,
+// 因為切角不會通過控制點 —— 路線會從景點旁邊繞過去,看起來像沒連到。
+// 選向心參數化是因為各段長度差距極大(市區 300m vs 犬山 25km),
+// 均勻參數化在這種情況下會在短的那一段打結或大幅超衝。
+function crSegment(p0, p1, p2, p3, samples) {
+  const knot = (ti, a, b) => ti + Math.sqrt(Math.hypot(b[0] - a[0], b[1] - a[1]));
+  const t0 = 0, t1 = knot(t0, p0, p1), t2 = knot(t1, p1, p2), t3 = knot(t2, p2, p3);
+
+  const out = [];
+  // 有重疊點時參數會退化,退回線性內插
+  if (!(t1 > t0 && t2 > t1 && t3 > t2)) {
+    for (let s = 0; s < samples; s++) {
+      const t = s / samples;
+      out.push([p1[0] + (p2[0] - p1[0]) * t, p1[1] + (p2[1] - p1[1]) * t]);
+    }
+    return out;
+  }
+
+  const lerp = (a, b, ta, tb, t) => {
+    const w = (tb - t) / (tb - ta);
+    return [a[0] * w + b[0] * (1 - w), a[1] * w + b[1] * (1 - w)];
+  };
+
+  for (let s = 0; s < samples; s++) {
+    const t = t1 + (t2 - t1) * (s / samples);
+    const A1 = lerp(p0, p1, t0, t1, t);
+    const A2 = lerp(p1, p2, t1, t2, t);
+    const A3 = lerp(p2, p3, t2, t3, t);
+    const B1 = lerp(A1, A2, t0, t2, t);
+    const B2 = lerp(A2, A3, t1, t3, t);
+    out.push(lerp(B1, B2, t1, t2, t));
+  }
+  return out;
+}
+
+function smoothClosed(verts, legs) {
+  const n = verts.length;
+  const out = [], outLegs = [];
+  for (let i = 0; i < n; i++) {
+    const seg = crSegment(
+      verts[(i - 1 + n) % n], verts[i], verts[(i + 1) % n], verts[(i + 2) % n],
+      CURVE_SAMPLES
+    );
+    for (const p of seg) { out.push(p); outLegs.push(legs[i]); }
+  }
+  return { verts: out, legs: outLegs };
+}
+
+// 產生某一天的平滑迴圈,依「第幾段」切成多條 path,
+// 這樣單日模式才能保留黃→紅的時序漸層(PathLayer 的顏色是一條 path 一個值)。
+function loopPaths(day) {
+  const waypoints = buildDayRoute(day);
+  if (waypoints.length < 2) return [];
+
+  const bowed = bowedVertices(waypoints);
+  const { verts, legs } = smoothClosed(bowed.verts, bowed.legs);
+
+  const legCount = waypoints.length;
+  const paths = [];
+  for (let step = 0; step < legCount; step++) {
+    const flat = verts.filter((_, i) => legs[i] === step);
+    if (flat.length < 2) continue;
+
+    // 接上下一段的起點,段與段之間才不會有縫
+    const nextStart = verts[legs.findIndex(l => l === (step + 1) % legCount)];
+    if (nextStart) flat.push(nextStart);
+
+    // 每段拱成一個弧:兩端貼地,中間抬起
+    const path = flat.map((p, i) => {
+      const t = i / (flat.length - 1);
+      return [p[0], p[1], Math.sin(Math.PI * t) * ARC_LIFT];
+    });
+
+    paths.push({ path, step, legCount, day });
+  }
+  return paths;
+}
+
+
+
+let routeCache = null;
+let routeCacheKey = '';
+
+function getRoutes() {
+  const key = `${filter}|${showArcs}`;
+  if (routeCacheKey === key) return routeCache;
+  const isOverview = filter === 'all' || filter === 'planned';
+  routeCache = showArcs
+    ? (isOverview ? days.flatMap(loopPaths) : loopPaths(filter))
+    : [];
+  routeCacheKey = key;
+  return routeCache;
+}
+
+function topPosition(d) {
+  return [
+    d.position[0],
+    d.position[1],
+    (d.interest ?? 1) * COLUMN_SCALE + 120
+  ];
+}
+
+
+function buildLayers() {
+  const data = allSpots.filter(isVisible);
+
+  // ── 路線推算 ──
+  // 總覽模式(全部/已排)畫七天所有環路,單日模式只畫那一天。
+  
+  const isOverview = filter === 'all' || filter === 'planned';
+  /*
+  let routes = [];
+  if (showArcs) {
+    routes = isOverview ? days.flatMap(loopPaths) : loopPaths(filter);
+  }
+  */
+  const routes = getRoutes();
+  // ── 廁所:從目前顯示的點裡收集,並去重 ──
+  const restrooms = [];
+  if (showRestrooms) {
+    const seen = new Set();
+    for (const spot of data.filter(isActive)) {
+      for (const r of (spot.restrooms ?? [])) {
+        const key = r.position.join(',');
+        if (seen.has(key)) continue;
+        seen.add(key);
+        restrooms.push({ ...r, near: spot.name });
+      }
+    }
+  }
+
+  return [
+    new deck.PathLayer({
+      id: 'routes',
+      data: routes,
+      getPath: d => d.path,
+      getColor: d => {
+        if (isOverview) return OVERVIEW_ARC_COLOR;
+        const t = d.step / d.legCount;
+        return [255, Math.round(210 * (1 - t)), 60, 215];
+      },
+      getWidth: isOverview ? 3.5 : 3,
+      widthUnits: 'pixels',
+      widthMinPixels: 2,
+      jointRounded: true,
+      capRounded: true,
+      billboard: true,
+      updateTriggers: {
+        getPath: [filter, showArcs],
+        getColor: [filter, showArcs]
+      }
+    }),
+
+    new deck.ScatterplotLayer({
+      id: 'restrooms',
+      data: restrooms,
+      getPosition: d => d.position,
+      getRadius: 45,
+      getFillColor: [...RESTROOM_COLOR, 200],
+      radiusMinPixels: 3,
+      radiusMaxPixels: 8,
+      stroked: true,
+      getLineColor: [255, 255, 255, 230],
+      lineWidthMinPixels: 1,
+      pickable: true,
+      updateTriggers: {
+        getPosition: [filter, showRestrooms]
+      }
+    }),
+
+    new deck.ScatterplotLayer({
+      id: 'spots',
+      data,
+      getPosition: d => d.position,
+      getRadius: d => isActive(d) ? 170 : 55,
+      getFillColor: d => {
+        const c = TYPE_COLORS[d.type] ?? [120, 120, 120];
+        return isActive(d) ? [...c, 235] : [...c, 55];
+      },
+      getLineColor: d => isActive(d) ? [255, 255, 255, 255] : [255, 255, 255, 50],
+      radiusMinPixels: 4,
+      radiusMaxPixels: 22,
+      stroked: true,
+      lineWidthMinPixels: 1.5,
+      pickable: true,
+      transitions: { getRadius: 300, getFillColor: 300, getLineColor: 300 },
+      updateTriggers: {
+        getRadius: filter,
+        getFillColor: filter,
+        getLineColor: filter
+      }
+    }),
+
+    new deck.ColumnLayer({
+      id: 'columns',
+      data: data.filter(isActive),
+      getPosition: d => d.position,
+      //getElevation: d => (d.interest ?? 1) * 300,
+      //getElevation: d => (d.interest ?? 1) * 180, 
+      getElevation: d => (d.interest ?? 1) * COLUMN_SCALE,
+      getFillColor: d => {
+        const c = TYPE_COLORS[d.type] ?? [120, 120, 120];
+        return [...c, 230];
+      },
+      radius: 120,
+      diskResolution: 12,
+      extruded: true,
+      pickable: true,
+      transitions: { getElevation: 300 },
+      updateTriggers: { getElevation: filter, getFillColor: filter }
+    }),
+
+    new deck.ScatterplotLayer({
+      id: 'home',
+      data: [HOME],
+      getPosition: d => d.position,
+      getRadius: 200,
+      getFillColor: [40, 40, 40, 240],
+      radiusMinPixels: 7,
+      radiusMaxPixels: 14,
+      stroked: true,
+      getLineColor: [255, 255, 255],
+      lineWidthMinPixels: 2,
+      pickable: true
+    }),
+
+    new deck.TextLayer({
+      id: 'labels',
+      data: pickLabels(),
+      getPosition: topPosition,
+      /*getPosition: d => [
+        d.position[0],
+        d.position[1],
+        (d.interest ?? 1) * 300 + 150     // 柱高 + 一點空隙
+      ],*/
+      //getPosition: d => d.position,
+      getText: d => d.name,
+      getColor: [35, 35, 35, 255],
+      getPixelOffset: [0, -16],
+      fontFamily: '"Noto Sans JP", "Noto Sans TC", system-ui, sans-serif',
+      characterSet: 'auto',
+      sizeUnits: 'meters',
+      getSize: 120,
+      sizeMinPixels: 10,
+      sizeMaxPixels: 17,
+      background: true,
+      getBackgroundColor: [255, 255, 255, 215],
+      backgroundPadding: [5, 2, 5, 2],
+      getTextAnchor: 'middle',
+      getAlignmentBaseline: 'bottom',
+      updateTriggers: {
+        getText: filter,
+        getPosition: filter
+      }
+    })
+  ];
+}
+
+// 手機沒有右側圖例、螢幕也窄,padding 要跟著縮,否則 fitBounds 會把範圍壓到看不見
+function fitPadding() {
+  const narrow = window.innerWidth <= 640;
+  return narrow
+    ? { top: 70, bottom: 90, left: 30, right: 30 }
+    : { top: 80, bottom: 80, left: 80, right: 240 };
+}
+
+function fitToFilter() {
+  let pts;
+  if (filter === 'all') {
+    pts = allSpots.map(d => d.position);
+  } else if (filter === 'planned') {
+    pts = allSpots.filter(isPlanned).map(d => d.position);
+  } else {
+    pts = allSpots.filter(d => d.days?.includes(filter)).map(d => d.position);
+    pts.push(HOME.position);          // 單日模式把住宿也框進去
+  }
+
+  if (pts.length === 0) return;
+
+  // 算邊界框:找出最小/最大的經緯度
+  const lngs = pts.map(p => p[0]);
+  const lats = pts.map(p => p[1]);
+  const bounds = [
+    [Math.min(...lngs), Math.min(...lats)],   // 西南角
+    [Math.max(...lngs), Math.max(...lats)]    // 東北角
+  ];
+
+  map.fitBounds(bounds, {
+    padding: fitPadding(),
+    maxZoom: 15,
+    duration: 800
+  });
+}
+
+function setFilter(f) {
+  filter = f;
+  overlay.setProps({ layers: buildLayers() });
+  updateButtons();
+  fitToFilter();
+}
+
+function updateButtons() {
+  document.querySelectorAll('#controls button[data-filter]').forEach(btn => {
+    const on = btn.dataset.filter === filter;
+    btn.style.background = on ? '#c0563c' : '';
+    btn.style.color      = on ? '#fff' : '';
+    btn.style.fontWeight = on ? '600' : '';
+  });
+  document.querySelectorAll('#controls button[data-toggle]').forEach(btn => {
+    const on = btn.dataset.toggle === 'arcs' ? showArcs : showRestrooms;
+    btn.style.background = on ? '#4a7c9c' : '';
+    btn.style.color      = on ? '#fff' : '';
+  });
+}
+
+function buildButtons() {
+  const controls = document.getElementById('controls');
+  const items = [
+    { key: 'all',     label: '全部' },
+    { key: 'planned', label: '已排行程' },
+    ...days.map(d => ({ key: d, label: d.replace('Day', 'D') }))
+  ];
+
+  controls.innerHTML = items.map(it => {
+    const n = it.key === 'all'
+      ? allSpots.length
+      : it.key === 'planned'
+        ? allSpots.filter(isPlanned).length
+        : allSpots.filter(s => s.days?.includes(it.key)).length;
+
+    return `<button data-filter="${it.key}">${it.label} <span style="opacity:.6;font-size:11px;">${n}</span></button>`;
+  }).join('') + `
+    <span class="sep"></span>
+    <button data-toggle="arcs">路線</button>
+    <button data-toggle="restrooms">🚻 廁所</button>`;
+
+  controls.querySelectorAll('button[data-filter]').forEach(btn => {
+    btn.addEventListener('click', () => setFilter(btn.dataset.filter));
+  });
+
+  controls.querySelectorAll('button[data-toggle]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      if (btn.dataset.toggle === 'arcs') showArcs = !showArcs;
+      else showRestrooms = !showRestrooms;
+      overlay.setProps({ layers: buildLayers() });
+      updateButtons();
+    });
+  });
+}
+
+function buildLegend() {
+  document.getElementById('legend').innerHTML =
+    '<b>分類</b><br/>' +
+    Object.entries(TYPE_COLORS).map(([k, c]) =>
+      `<div><span class="swatch" style="background:rgb(${c.join(',')});"></span>${TYPE_LABELS[k]}</div>`
+    ).join('') +
+    `<div><span class="swatch" style="background:rgb(${RESTROOM_COLOR.join(',')});width:9px;height:9px;"></span>公廁</div>` +
+    `<div class="hint">實心 = 目前選取<br/>淡色 = 其他<br/>
+       <span style="color:rgb(206,154,120);font-weight:700;">─</span> 七天環路概覽<br/>(單日模式改依時序 黃→紅)<br/>
+       <span class="keys">0 全部 · 空白 已排 · 1-7 天數<br/>A 路線 · R 廁所 · H 對焦</span>
+     </div>`;
+}
+
+async function init() {
+  const res = await fetch('spots.json');
+  if (!res.ok) {
+    document.getElementById('legend').textContent = `讀取 spots.json 失敗(${res.status})`;
+    return;
+  }
+  allSpots = await res.json();
+
+  // 從資料自動抓出有哪些天,並排序
+  days = [...new Set(allSpots.flatMap(s => s.days ?? []))].sort();
+  console.log(`載入 ${allSpots.length} 筆,天數:`, days);
+
+  map = new maplibregl.Map({
+    container: 'map',
+    style: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json',
+    center: [136.9066, 35.1755],
+    zoom: 12,
+    // 改變相機視角？
+    pitch: 40,        // 相機俯角,0 = 正上方,60 = 很斜
+    bearing: -15      // 水平旋轉
+  });
+
+  overlay = new deck.MapboxOverlay({
+    layers: buildLayers(),
+    getTooltip: ({ object, layer }) => {
+      if (!object) return null;
+      if (layer.id === 'restrooms') {
+        return {
+          html: `🚻 <b>${object.name ?? '公廁'}</b><br/>
+                 <span style="color:#666;">${object.near} 附近 · ${object.distance ?? ''}</span>`,
+          style: { fontSize: '13px', padding: '8px', lineHeight: '1.5' }
+        };
+      }
+      return {
+        html: `<b>${object.name}</b><br/>
+               ${TYPE_LABELS[object.type] ?? ''} · ${object.district ?? ''}<br/>
+               ${isPlanned(object) ? '📅 ' + object.days.join(', ') : '⚪ 候選中'}
+               ${object.interest ? ' · 興致 ' + object.interest : ''}`,
+        style: { fontSize: '13px', padding: '8px', lineHeight: '1.5' }
+      };
+    }
+  });
+  map.addControl(overlay);
+
+  // 縮放/平移後要重算標籤去重(同一批點在不同縮放下,擠得下的數量不同)。
+  // 'load' 是保險:確保初次繪製時 map.project() 已經可用。
+  const refresh = () => overlay.setProps({ layers: buildLayers() });
+  map.on('load', refresh);
+  map.on('moveend', refresh);
+
+  buildButtons();
+  updateButtons();
+  buildLegend();
+
+  // 鍵盤:0=全部, 空白=已排, 1-7=各天
+  document.addEventListener('keydown', e => {
+    if (e.code === 'Space') { e.preventDefault(); setFilter('planned'); return; }
+    if (e.key === '0')      { setFilter('all'); return; }
+    if (e.key === 'h' || e.key === 'H') { fitToFilter(); return; }
+    if (e.key === 'a' || e.key === 'A') {
+      showArcs = !showArcs;
+      overlay.setProps({ layers: buildLayers() });
+      updateButtons();
+      return;
+    }
+    if (e.key === 'r' || e.key === 'R') {
+      showRestrooms = !showRestrooms;
+      overlay.setProps({ layers: buildLayers() });
+      updateButtons();
+      return;
+    }
+    const n = parseInt(e.key, 10);
+    if (n >= 1 && n <= 9) {
+      const target = `Day${n}`;
+      if (days.includes(target)) setFilter(target);
+    }
+  });
+}
+
+init();
+</script>
+</body>
+</html>

@@ -1,0 +1,8416 @@
+[
+  {
+    "name": "AEON商場 則武之森",
+    "title": "AEON商場 則武之森",
+    "position": [
+      136.8799137,
+      35.1798659
+    ],
+    "type": "place",
+    "interest": 5,
+    "category": "逛街尋寶",
+    "district": "則武新町",
+    "station": "龜島站（地下鐵東山線）",
+    "lines": [
+      "地下鐵東山線"
+    ],
+    "duration": "1-2小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://image-cdn.aeonmall.jp/uploads/cbb1076e-28b8-472e-ae6b-231d3493c102.png",
+    "official_url": "https://nagoya-noritake-garden.aeonmall.jp/",
+    "days": [
+      "Day3"
+    ],
+    "restrooms": [
+      {
+        "name": "トイレ",
+        "position": [
+          136.879955,
+          35.18243
+        ],
+        "distance": "約290m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.883353,
+          35.182392
+        ],
+        "distance": "約420m"
+      },
+      {
+        "name": "江西公園公衆トイレ",
+        "position": [
+          136.884629,
+          35.179761
+        ],
+        "distance": "約430m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.882377,
+          35.176046
+        ],
+        "distance": "約480m"
+      },
+      {
+        "name": "亀島ふれあい公園 ﾊﾞﾘｱﾌﾘｰトイレ",
+        "position": [
+          136.876237,
+          35.176537
+        ],
+        "distance": "約500m"
+      }
+    ]
+  },
+  {
+    "name": "Alpen Outdoors 榮店",
+    "title": "Alpen Outdoors Flagship Store 名古屋榮店",
+    "position": [
+      136.905709,
+      35.165466
+    ],
+    "type": "place",
+    "interest": 5,
+    "category": "逛街尋寶",
+    "district": "榮",
+    "station": "矢場町站（地下鐵名城線）",
+    "lines": [
+      "地下鐵名城線"
+    ],
+    "duration": "1-1.5小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://japanshopping.org/files/shopping_article_contents/solocamp.jpg",
+    "official_url": "https://store.alpen-group.jp/Form/RealShop/ShopDetail.aspx?rsid=5502",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "バリアフリートイレ",
+        "position": [
+          136.905469,
+          35.165051
+        ],
+        "distance": "約50m"
+      },
+      {
+        "name": "久屋広場西トイレ",
+        "position": [
+          136.908728,
+          35.164578
+        ],
+        "distance": "約290m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.907153,
+          35.162846
+        ],
+        "distance": "約320m"
+      },
+      {
+        "name": "若宮大通り公園公衆トイレ",
+        "position": [
+          136.905313,
+          35.162501
+        ],
+        "distance": "約330m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.90934,
+          35.164547
+        ],
+        "distance": "約350m"
+      }
+    ]
+  },
+  {
+    "name": "BOOKOFF 名古屋港店",
+    "title": "BOOKOFF SUPER BAZAAR カインズモール名古屋みなと店（二手露營用品）",
+    "position": [
+      136.8637205,
+      35.0917779
+    ],
+    "type": "place",
+    "interest": 5,
+    "category": "逛街尋寶",
+    "district": "港區",
+    "station": "稲永站（あおなみ線）",
+    "lines": [
+      "あおなみ線"
+    ],
+    "duration": "1-2小時",
+    "status": "researching",
+    "priority": "optional",
+    "image": "https://www.bookoff.co.jp/shop/images/20423_out.png",
+    "official_url": "https://www.bookoff.co.jp/shop/shop20423.html",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "十一屋川緑地公衆トイレＡ",
+        "position": [
+          136.86464,
+          35.092452
+        ],
+        "distance": "約110m"
+      },
+      {
+        "name": "十一屋川緑地公衆トイレＢ",
+        "position": [
+          136.862079,
+          35.091663
+        ],
+        "distance": "約150m"
+      }
+    ]
+  },
+  {
+    "name": "ESCA地下街",
+    "title": "ESCA地下街",
+    "position": [
+      136.879837,
+      35.170307
+    ],
+    "type": "place",
+    "interest": 4,
+    "category": "逛街尋寶",
+    "district": "名駅",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "duration": "1小時",
+    "status": "researching",
+    "priority": "optional",
+    "image": "https://www.ozmall.co.jp/Content/upload/images/W32VEZ27OSQBNW4VDTAH4DBLTU.jpg",
+    "official_url": "https://www.esca-sc.com/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "新幹線名古屋駅改札内トイレ",
+        "position": [
+          136.881538,
+          35.169733
+        ],
+        "distance": "約170m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.88211,
+          35.170356
+        ],
+        "distance": "約210m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.882084,
+          35.171698
+        ],
+        "distance": "約260m"
+      },
+      {
+        "name": "牧野公園 公衆トイレ",
+        "position": [
+          136.877756,
+          35.168335
+        ],
+        "distance": "約290m"
+      },
+      {
+        "name": "うまいもん通り広小路口 多機能トイレ",
+        "position": [
+          136.883368,
+          35.169209
+        ],
+        "distance": "約340m"
+      }
+    ]
+  },
+  {
+    "name": "HAERA",
+    "title": "HAERA ハエラ",
+    "position": [
+      136.90722,
+      35.16944
+    ],
+    "type": "place",
+    "category": "逛街尋寶",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "duration": "1-2小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/80/View_of_the_Landmark_Nagoya_Sakae%2C_Sakae_3-chome%2C_Naka_Ward_Nagoya_City_2026.jpg",
+    "official_url": "https://haera.parco.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908276,
+          35.169612
+        ],
+        "distance": "約100m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.908596,
+          35.168135
+        ],
+        "distance": "約190m"
+      },
+      {
+        "name": "栄町駅 バリアフリートイレ",
+        "position": [
+          136.908835,
+          35.170823
+        ],
+        "distance": "約210m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.90955,
+          35.171728
+        ],
+        "distance": "約330m"
+      },
+      {
+        "name": "中部電力 MIRAI TOWER下 公衆トイレ",
+        "position": [
+          136.908338,
+          35.172345
+        ],
+        "distance": "約340m"
+      }
+    ]
+  },
+  {
+    "name": "LACHIC",
+    "title": "LACHIC ラシック",
+    "position": [
+      136.907766,
+      35.167581
+    ],
+    "type": "place",
+    "category": "逛街尋寶",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "duration": "1-2小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/LACHIC_2017.jpg",
+    "official_url": "https://www.lachic.jp/nagoya.html",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "トイレ",
+        "position": [
+          136.908596,
+          35.168135
+        ],
+        "distance": "約100m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908276,
+          35.169612
+        ],
+        "distance": "約230m"
+      },
+      {
+        "name": "久屋広場西トイレ",
+        "position": [
+          136.908728,
+          35.164578
+        ],
+        "distance": "約350m"
+      },
+      {
+        "name": "バリアフリートイレ",
+        "position": [
+          136.905469,
+          35.165051
+        ],
+        "distance": "約350m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.90934,
+          35.164547
+        ],
+        "distance": "約370m"
+      }
+    ]
+  },
+  {
+    "name": "LEGOLAND",
+    "title": "LEGOLAND Japan",
+    "position": [
+      136.84333,
+      35.05056
+    ],
+    "type": "place",
+    "interest": 2,
+    "category": "知性趣味",
+    "district": "港區金城ふ頭",
+    "station": "金城ふ頭站（あおなみ線）",
+    "lines": [
+      "あおなみ線"
+    ],
+    "duration": "半天至一天（4-6小時）",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://www.legoland.jp/media/chmftlft/top-fb1200.jpg",
+    "official_url": "https://www.legoland.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.844935,
+          35.051215
+        ],
+        "distance": "約160m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.845418,
+          35.049924
+        ],
+        "distance": "約200m"
+      },
+      {
+        "name": "トイレ メイカーズピア内",
+        "position": [
+          136.846979,
+          35.051444
+        ],
+        "distance": "約350m"
+      }
+    ]
+  },
+  {
+    "name": "LaLaport 名古屋港",
+    "title": "LaLaport 名古屋港（ みなとアクルス ）",
+    "position": [
+      136.882352,
+      35.1086
+    ],
+    "type": "place",
+    "interest": 5,
+    "category": "逛街尋寶",
+    "district": "港區",
+    "station": "港區役所站（地下鐵名港線）",
+    "lines": [
+      "地下鐵名港線"
+    ],
+    "duration": "2-3小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://jouhou.nagoya/wp-content/uploads/2018/09/lalaport-outview.jpg",
+    "official_url": "https://mitsui-shopping-park.com/lalaport/minatoaquls/",
+    "days": [
+      "Day4"
+    ],
+    "restrooms": [
+      {
+        "name": "港北公園 公衆トイレ",
+        "position": [
+          136.88365,
+          35.107253
+        ],
+        "distance": "約190m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.885597,
+          35.107737
+        ],
+        "distance": "約310m"
+      },
+      {
+        "name": "港北公園 (東園) 公衆トイレ",
+        "position": [
+          136.886787,
+          35.107159
+        ],
+        "distance": "約430m"
+      }
+    ]
+  },
+  {
+    "name": "栄NOVA・スカイル",
+    "title": "SAKAE NOVA・スカイル・メルサ",
+    "position": [
+      136.906311,
+      35.168527
+    ],
+    "type": "place",
+    "category": "逛街尋寶",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "duration": "1-2小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/View_of_SKYLE_and_Sakae_Intersection%2C_Nishiki_Naka_Ward_Nagoya_2022.jpg",
+    "official_url": "https://skyle.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "トイレ",
+        "position": [
+          136.908596,
+          35.168135
+        ],
+        "distance": "約210m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908276,
+          35.169612
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "栄町駅 バリアフリートイレ",
+        "position": [
+          136.908835,
+          35.170823
+        ],
+        "distance": "約340m"
+      },
+      {
+        "name": "バリアフリートイレ",
+        "position": [
+          136.905469,
+          35.165051
+        ],
+        "distance": "約390m"
+      },
+      {
+        "name": "広小路本町(市バス) 5番",
+        "position": [
+          136.901995,
+          35.168906
+        ],
+        "distance": "約390m"
+      }
+    ]
+  },
+  {
+    "name": "m.m.d.（瀨戶燒選品店）",
+    "title": "m.m.d.（瀨戶燒選品店）",
+    "position": [
+      136.907177,
+      35.172559
+    ],
+    "type": "place",
+    "category": "逛街尋寶",
+    "district": "榮",
+    "station": "久屋大通站（地下鐵櫻通線・名城線）",
+    "lines": [
+      "地下鐵櫻通線",
+      "地下鐵名城線"
+    ],
+    "duration": "30分鐘",
+    "status": "researching",
+    "priority": "optional",
+    "image": "https://www.makemyday-shop.jp/img/ogp.png",
+    "official_url": "http://www.makemyday-shop.jp/",
+    "days": []
+  },
+  {
+    "name": "三光稲荷神社",
+    "title": "三光稲荷神社",
+    "position": [
+      136.9392,
+      35.3869
+    ],
+    "type": "place",
+    "interest": 3,
+    "category": "文化古蹟",
+    "district": "犬山城下町",
+    "station": "犬山站（名鐵）",
+    "lines": [
+      "名鐵犬山線",
+      "名鐵小牧線"
+    ],
+    "duration": "0.5小時",
+    "status": "researching",
+    "priority": "optional",
+    "image": "https://aichinow.pref.aichi.jp/upload/site/spots/2a0915b46ff81bcecdc70e9400d31c5c.jpg",
+    "days": [
+      "Day5"
+    ],
+    "restrooms": [
+      {
+        "name": "針綱神社公衆トイレ",
+        "position": [
+          136.939775,
+          35.386486
+        ],
+        "distance": "約70m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.939857,
+          35.387965
+        ],
+        "distance": "約130m"
+      },
+      {
+        "name": "犬山丸の内緑地公衆トイレ",
+        "position": [
+          136.936939,
+          35.386235
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "内田防災公園 公衆トイレ",
+        "position": [
+          136.942391,
+          35.386233
+        ],
+        "distance": "約300m"
+      },
+      {
+        "name": "彩雲橋公衆トイレ",
+        "position": [
+          136.941387,
+          35.389381
+        ],
+        "distance": "約340m"
+      }
+    ]
+  },
+  {
+    "name": "中日ビル（中日大樓）",
+    "title": "中日ビル（中日大樓）",
+    "position": [
+      136.909457,
+      35.168945
+    ],
+    "type": "place",
+    "interest": 5,
+    "category": "逛街尋寶",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "duration": "1-2小時（不含用餐）",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Chunichi-Building-2023-09-23-1.jpg/960px-Chunichi-Building-2023-09-23-1.jpg",
+    "official_url": "https://chunichi-building.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "トイレ",
+        "position": [
+          136.908596,
+          35.168135
+        ],
+        "distance": "約120m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908276,
+          35.169612
+        ],
+        "distance": "約130m"
+      },
+      {
+        "name": "栄町駅 バリアフリートイレ",
+        "position": [
+          136.908835,
+          35.170823
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "原内科クリニック",
+        "position": [
+          136.911934,
+          35.167725
+        ],
+        "distance": "約260m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.90955,
+          35.171728
+        ],
+        "distance": "約310m"
+      }
+    ]
+  },
+  {
+    "name": "MIRAI TOWER",
+    "title": "中部電力 MIRAI TOWER",
+    "position": [
+      136.908331,
+      35.172358
+    ],
+    "type": "place",
+    "interest": 3,
+    "category": "文化古蹟",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "duration": "約1小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://www.nagoya-tv-tower.co.jp/cms/wp-content/uploads/2025/09/main.jpg",
+    "official_url": "https://www.nagoya-tv-tower.co.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "中部電力 MIRAI TOWER下 公衆トイレ",
+        "position": [
+          136.908338,
+          35.172345
+        ],
+        "distance": "約0m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908642,
+          35.172536
+        ],
+        "distance": "約30m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.90955,
+          35.171728
+        ],
+        "distance": "約130m"
+      },
+      {
+        "name": "栄町駅 バリアフリートイレ",
+        "position": [
+          136.908835,
+          35.170823
+        ],
+        "distance": "約180m"
+      },
+      {
+        "name": "ツルシゲ通り1 公衆トイレ",
+        "position": [
+          136.905325,
+          35.172394
+        ],
+        "distance": "約270m"
+      }
+    ]
+  },
+  {
+    "name": "久屋大通公園",
+    "title": "久屋大通公園（Hisaya-odori Park）",
+    "position": [
+      136.9088285,
+      35.1673656
+    ],
+    "type": "place",
+    "interest": 3,
+    "category": "自然漫步",
+    "district": "榮",
+    "station": "久屋大通站（地下鐵櫻通線・名城線）",
+    "lines": [
+      "地下鐵櫻通線",
+      "地下鐵名城線"
+    ],
+    "duration": "1-2小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://www.nagoya-info.jp/upload/spots/large/20368120235f5f2bd90de30.jpg",
+    "official_url": "https://rhp.nagoya/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "トイレ",
+        "position": [
+          136.908596,
+          35.168135
+        ],
+        "distance": "約90m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908276,
+          35.169612
+        ],
+        "distance": "約250m"
+      },
+      {
+        "name": "原内科クリニック",
+        "position": [
+          136.911934,
+          35.167725
+        ],
+        "distance": "約290m"
+      },
+      {
+        "name": "久屋広場西トイレ",
+        "position": [
+          136.908728,
+          35.164578
+        ],
+        "distance": "約310m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.90934,
+          35.164547
+        ],
+        "distance": "約320m"
+      }
+    ]
+  },
+  {
+    "name": "円頓寺商店街",
+    "title": "円頓寺商店街",
+    "position": [
+      136.8912596,
+      35.1762556
+    ],
+    "type": "place",
+    "interest": 4,
+    "category": "逛街尋寶",
+    "district": "円頓寺",
+    "station": "國際中心站（地下鐵櫻通線）",
+    "lines": [
+      "地下鐵櫻通線"
+    ],
+    "duration": "1-1.5小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://www.nagoya-info.jp/upload/spots/large/8775128945e3bc5c380e91.jpg",
+    "official_url": "https://endojishotengai.com/home.html",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "新道中央公園 公衆トイレ",
+        "position": [
+          136.88744,
+          35.179403
+        ],
+        "distance": "約490m"
+      }
+    ]
+  },
+  {
+    "name": "則武之森",
+    "title": "則武之森（ ノリタケの森 ）",
+    "position": [
+      136.8805,
+      35.1786
+    ],
+    "type": "place",
+    "interest": 5,
+    "category": "知性趣味",
+    "district": "則武新町",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "duration": "1-1.5小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://industrial-tourism.nagoya-cci.or.jp/wp-content/uploads/2018/08/1c43068b4a58d780f1cb4848c75ef87c-e1537421671138.jpg",
+    "official_url": "https://www.noritake.co.jp/mori/",
+    "days": [
+      "Day3"
+    ],
+    "restrooms": [
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.882377,
+          35.176046
+        ],
+        "distance": "約330m"
+      },
+      {
+        "name": "江西公園公衆トイレ",
+        "position": [
+          136.884629,
+          35.179761
+        ],
+        "distance": "約400m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.879955,
+          35.18243
+        ],
+        "distance": "約430m"
+      },
+      {
+        "name": "亀島ふれあい公園 ﾊﾞﾘｱﾌﾘｰトイレ",
+        "position": [
+          136.876237,
+          35.176537
+        ],
+        "distance": "約450m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.883353,
+          35.182392
+        ],
+        "distance": "約500m"
+      }
+    ]
+  },
+  {
+    "name": "南極觀測船",
+    "title": "南極觀測船富士號 Fuji 南極観測船ふじ",
+    "position": [
+      136.884877,
+      35.090748
+    ],
+    "type": "place",
+    "category": "知性趣味",
+    "district": "港區",
+    "station": "名古屋港站（地下鐵名港線）",
+    "lines": [
+      "地下鐵名港線"
+    ],
+    "duration": "40分鐘-1小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Antarctic_Museum_Fuji.jpg",
+    "official_url": "https://nagoyaaqua.jp/garden-pier/fuji/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "トイレ(こども広場)",
+        "position": [
+          136.883774,
+          35.089979
+        ],
+        "distance": "約130m"
+      },
+      {
+        "name": "駐車場横トイレ",
+        "position": [
+          136.882276,
+          35.09093
+        ],
+        "distance": "約240m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.881313,
+          35.091403
+        ],
+        "distance": "約330m"
+      },
+      {
+        "name": "港橋広場公園 トイレ",
+        "position": [
+          136.88286,
+          35.094015
+        ],
+        "distance": "約410m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.88046,
+          35.091765
+        ],
+        "distance": "約420m"
+      }
+    ]
+  },
+  {
+    "name": "吉卜力公園",
+    "title": "吉卜力公園",
+    "position": [
+      137.0873,
+      35.1784
+    ],
+    "type": "place",
+    "interest": 5,
+    "category": "知性趣味",
+    "district": "長久手",
+    "station": "藤が丘站（轉Linimo至愛・地球博紀念公園站）",
+    "lines": [
+      "Linimo（東部丘陵線）"
+    ],
+    "duration": "全天（建議3-4小時以上）",
+    "status": "confirmed",
+    "priority": "must",
+    "image": "https://ghibli-park.jp/site/img/index/title02.png",
+    "official_url": "https://ghibli-park.jp/",
+    "days": [
+      "Day2"
+    ],
+    "restrooms": [
+      {
+        "name": "モリコロパーク 北２駐車場 公衆トイレ",
+        "position": [
+          137.086138,
+          35.177713
+        ],
+        "distance": "約130m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          137.088591,
+          35.177548
+        ],
+        "distance": "約150m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          137.086463,
+          35.175789
+        ],
+        "distance": "約300m"
+      },
+      {
+        "name": "青春の丘 トイレ",
+        "position": [
+          137.088972,
+          35.175647
+        ],
+        "distance": "約340m"
+      },
+      {
+        "name": "野外ステージ横休憩所トイレ",
+        "position": [
+          137.090236,
+          35.175126
+        ],
+        "distance": "約450m"
+      }
+    ]
+  },
+  {
+    "name": "名古屋PARCO",
+    "title": "名古屋PARCO 名古屋パルコ",
+    "position": [
+      136.907385,
+      35.163689
+    ],
+    "type": "place",
+    "category": "逛街尋寶",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "duration": "1-2小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/NAGOYA-PARCOMINAMIKAN.JPG",
+    "official_url": "https://nagoya.parco.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.907153,
+          35.162846
+        ],
+        "distance": "約100m"
+      },
+      {
+        "name": "はぐくみ側 公衆トイレ",
+        "position": [
+          136.909105,
+          35.163774
+        ],
+        "distance": "約160m"
+      },
+      {
+        "name": "久屋広場西トイレ",
+        "position": [
+          136.908728,
+          35.164578
+        ],
+        "distance": "約160m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.90934,
+          35.164547
+        ],
+        "distance": "約200m"
+      },
+      {
+        "name": "若宮大通り公園公衆トイレ",
+        "position": [
+          136.905313,
+          35.162501
+        ],
+        "distance": "約230m"
+      }
+    ]
+  },
+  {
+    "name": "名古屋城",
+    "title": "名古屋城",
+    "position": [
+      136.8997,
+      35.1848
+    ],
+    "type": "place",
+    "interest": 5,
+    "category": "文化古蹟",
+    "district": "本丸",
+    "station": "名古屋城站（地下鐵名城線）",
+    "lines": [
+      "地下鐵名城線"
+    ],
+    "duration": "約2小時",
+    "status": "researching",
+    "priority": "must",
+    "image": "https://www.nagoyajo.city.nagoya.jp/assets/images/global/ogp.jpg",
+    "official_url": "https://www.nagoyajo.city.nagoya.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "天守閣前トイレ",
+        "position": [
+          136.899907,
+          35.185559
+        ],
+        "distance": "約90m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.900395,
+          35.183878
+        ],
+        "distance": "約120m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.898558,
+          35.186253
+        ],
+        "distance": "約190m"
+      },
+      {
+        "name": "正門公衆トイレ",
+        "position": [
+          136.897963,
+          35.183566
+        ],
+        "distance": "約210m"
+      },
+      {
+        "name": "名城公園 公衆トイレ４",
+        "position": [
+          136.900892,
+          35.187186
+        ],
+        "distance": "約290m"
+      }
+    ]
+  },
+  {
+    "name": "名古屋市科學館",
+    "title": "名古屋市科學館",
+    "position": [
+      136.905718,
+      35.165408
+    ],
+    "type": "place",
+    "interest": 5,
+    "category": "知性趣味",
+    "district": "榮（白川公園內）",
+    "station": "伏見站（地下鐵鶴舞線・東山線）",
+    "lines": [
+      "地下鐵鶴舞線",
+      "地下鐵東山線"
+    ],
+    "duration": "2.5-3小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://www.ncsm.city.nagoya.jp/common/images/index/main_planetarium-sm.jpg",
+    "official_url": "https://www.ncsm.city.nagoya.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "バリアフリートイレ",
+        "position": [
+          136.905469,
+          35.165051
+        ],
+        "distance": "約50m"
+      },
+      {
+        "name": "久屋広場西トイレ",
+        "position": [
+          136.908728,
+          35.164578
+        ],
+        "distance": "約290m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.907153,
+          35.162846
+        ],
+        "distance": "約310m"
+      },
+      {
+        "name": "若宮大通り公園公衆トイレ",
+        "position": [
+          136.905313,
+          35.162501
+        ],
+        "distance": "約330m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.90934,
+          35.164547
+        ],
+        "distance": "約340m"
+      }
+    ]
+  },
+  {
+    "name": "名古屋港水族館",
+    "title": "名古屋港水族館",
+    "position": [
+      136.878258,
+      35.090601
+    ],
+    "type": "place",
+    "interest": 5,
+    "category": "知性趣味",
+    "district": "港區",
+    "station": "名古屋港站（地下鐵名港線）",
+    "lines": [
+      "地下鐵名港線"
+    ],
+    "duration": "2.5-3小時",
+    "status": "researching",
+    "priority": "must",
+    "image": "https://nagoyaaqua.jp/wp/wp-content/uploads/2024/03/MV_PC_2.png",
+    "official_url": "https://nagoyaaqua.jp/",
+    "days": [
+      "Day4"
+    ],
+    "restrooms": [
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.878416,
+          35.089973
+        ],
+        "distance": "約70m"
+      },
+      {
+        "name": "女性用トイレ",
+        "position": [
+          136.878913,
+          35.091175
+        ],
+        "distance": "約90m"
+      },
+      {
+        "name": "バリアフリートイレ",
+        "position": [
+          136.8789,
+          35.091219
+        ],
+        "distance": "約90m"
+      },
+      {
+        "name": "男性用トイレ",
+        "position": [
+          136.878927,
+          35.091247
+        ],
+        "distance": "約90m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.877236,
+          35.091788
+        ],
+        "distance": "約160m"
+      }
+    ]
+  },
+  {
+    "name": "四間道",
+    "title": "四間道",
+    "position": [
+      136.8923875,
+      35.174975
+    ],
+    "type": "place",
+    "interest": 4,
+    "category": "文化古蹟",
+    "district": "四間道",
+    "station": "國際中心站（地下鐵櫻通線）",
+    "lines": [
+      "地下鐵櫻通線"
+    ],
+    "duration": "30分鐘-1小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://www.nagoya-info.jp/upload/spots/large/16123059545e3d04c161219.jpg",
+    "official_url": "https://www.city.nagoya.jp/kankou/rekishi/1017254/1017255.html",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "丸の内駅構内トイレ",
+        "position": [
+          136.896877,
+          35.174357
+        ],
+        "distance": "約410m"
+      },
+      {
+        "name": "大東海ビル 地下1階トイレ",
+        "position": [
+          136.887889,
+          35.172464
+        ],
+        "distance": "約500m"
+      }
+    ]
+  },
+  {
+    "name": "大須商店街",
+    "title": "大須商店街",
+    "position": [
+      136.8982721,
+      35.1603644
+    ],
+    "type": "place",
+    "interest": 5,
+    "category": "逛街尋寶",
+    "district": "大須",
+    "station": "大須觀音站（地下鐵名城線）",
+    "lines": [
+      "地下鐵名城線"
+    ],
+    "duration": "1.5-2小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://osu.nagoya/images/index/scroll-img-pc.webp",
+    "official_url": "https://osu.nagoya/",
+    "days": [
+      "Day6"
+    ],
+    "restrooms": [
+      {
+        "name": "大須観音 公衆トイレ",
+        "position": [
+          136.899226,
+          35.159116
+        ],
+        "distance": "約160m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.897339,
+          35.161873
+        ],
+        "distance": "約190m"
+      },
+      {
+        "name": "公衆トイレ（若宮大通公園 白川前駐車場）",
+        "position": [
+          136.900033,
+          35.161908
+        ],
+        "distance": "約230m"
+      },
+      {
+        "name": "那古野古墳前 公衆トイレ",
+        "position": [
+          136.901104,
+          35.159637
+        ],
+        "distance": "約270m"
+      },
+      {
+        "name": "西大須公園公衆トイレ",
+        "position": [
+          136.895246,
+          35.15914
+        ],
+        "distance": "約310m"
+      }
+    ]
+  },
+  {
+    "name": "大須觀音（大須觀音寺）",
+    "title": "大須觀音（大須觀音寺）",
+    "position": [
+      136.8993,
+      35.1597
+    ],
+    "type": "place",
+    "interest": 4,
+    "category": "文化古蹟",
+    "district": "大須",
+    "station": "大須觀音站（地下鐵名城線）",
+    "lines": [
+      "地下鐵名城線"
+    ],
+    "duration": "0.5小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/Osu_Kannon_main_hall_2025-02_ac_%281%29.jpg",
+    "official_url": "https://www.osu-kannon.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "大須観音 公衆トイレ",
+        "position": [
+          136.899226,
+          35.159116
+        ],
+        "distance": "約70m"
+      },
+      {
+        "name": "那古野古墳前 公衆トイレ",
+        "position": [
+          136.901104,
+          35.159637
+        ],
+        "distance": "約160m"
+      },
+      {
+        "name": "公衆トイレ（若宮大通公園 白川前駐車場）",
+        "position": [
+          136.900033,
+          35.161908
+        ],
+        "distance": "約250m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.897339,
+          35.161873
+        ],
+        "distance": "約300m"
+      },
+      {
+        "name": "西大須公園公衆トイレ",
+        "position": [
+          136.895246,
+          35.15914
+        ],
+        "distance": "約370m"
+      }
+    ]
+  },
+  {
+    "name": "富士淺間神社（大須）",
+    "title": "富士淺間神社（大須）",
+    "position": [
+      136.9009723,
+      35.1591938
+    ],
+    "type": "place",
+    "interest": 2,
+    "category": "文化古蹟",
+    "district": "大須",
+    "station": "大須觀音站（地下鐵名城線）",
+    "lines": [
+      "地下鐵名城線"
+    ],
+    "duration": "0.5小時",
+    "status": "researching",
+    "priority": "optional",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Front_View_of_Fuji-sengen-jinja_Shrine%2C_Osu_Naka_Ward_Nagoya_2022.jpg",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "那古野古墳前 公衆トイレ",
+        "position": [
+          136.901104,
+          35.159637
+        ],
+        "distance": "約50m"
+      },
+      {
+        "name": "大須観音 公衆トイレ",
+        "position": [
+          136.899226,
+          35.159116
+        ],
+        "distance": "約160m"
+      },
+      {
+        "name": "公衆トイレ（若宮大通公園 白川前駐車場）",
+        "position": [
+          136.900033,
+          35.161908
+        ],
+        "distance": "約310m"
+      },
+      {
+        "name": "裏門前公園公衆トイレ",
+        "position": [
+          136.903833,
+          35.161342
+        ],
+        "distance": "約350m"
+      },
+      {
+        "name": "第1アメ横ビル 2Fトイレ",
+        "position": [
+          136.905377,
+          35.15975
+        ],
+        "distance": "約410m"
+      }
+    ]
+  },
+  {
+    "name": "常滑",
+    "title": "常滑（陶瓷散步道・招財貓街）",
+    "position": [
+      136.839386,
+      34.8906
+    ],
+    "type": "place",
+    "interest": 2,
+    "category": "文化古蹟",
+    "district": "常滑",
+    "station": "常滑站（名鐵）",
+    "lines": [
+      "名鐵常滑線"
+    ],
+    "duration": "半天（建議3-4小時）",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://www.tokoname-kankou.net/upload/foreignspots/large/106551992168db1a6a0ec5e.jpg",
+    "official_url": "https://www.tokoname-kankou.net/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.838929,
+          34.88785
+        ],
+        "distance": "約310m"
+      },
+      {
+        "name": "常滑駅(改札内)バリアフリートイレ",
+        "position": [
+          136.835633,
+          34.890083
+        ],
+        "distance": "約350m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.835532,
+          34.890458
+        ],
+        "distance": "約350m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.839643,
+          34.886477
+        ],
+        "distance": "約460m"
+      }
+    ]
+  },
+  {
+    "name": "德川園",
+    "title": "德川園",
+    "position": [
+      136.932134,
+      35.184295
+    ],
+    "type": "place",
+    "interest": 5,
+    "category": "自然漫步",
+    "district": "東區",
+    "station": "大曾根站（地下鐵名城線／JR中央線／名鐵瀬戸線）",
+    "lines": [
+      "地下鐵名城線",
+      "JR中央線",
+      "名鐵瀬戸線"
+    ],
+    "duration": "1-1.5小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "04-Attachments/Pasted-image-20260724225826.png",
+    "official_url": "https://www.tokugawaen.aichi.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "徳川園 公衆トイレ",
+        "position": [
+          136.932462,
+          35.184277
+        ],
+        "distance": "約30m"
+      },
+      {
+        "name": "徳川園 公衆トイレ",
+        "position": [
+          136.931964,
+          35.183989
+        ],
+        "distance": "約40m"
+      },
+      {
+        "name": "大曽根口トイレ",
+        "position": [
+          136.932719,
+          35.185476
+        ],
+        "distance": "約140m"
+      },
+      {
+        "name": "徳川園 遊び場 ﾊﾞﾘｱﾌﾘｰトイレ",
+        "position": [
+          136.933879,
+          35.185376
+        ],
+        "distance": "約200m"
+      },
+      {
+        "name": "新出来公園 公衆トイレ",
+        "position": [
+          136.937404,
+          35.184629
+        ],
+        "distance": "約480m"
+      }
+    ]
+  },
+  {
+    "name": "德川美術館",
+    "title": "德川美術館",
+    "position": [
+      136.933841,
+      35.183612
+    ],
+    "type": "place",
+    "interest": 3,
+    "category": "文化古蹟",
+    "district": "東區",
+    "station": "大曾根站（地下鐵名城線／JR中央線／名鐵瀬戸線）",
+    "lines": [
+      "地下鐵名城線",
+      "JR中央線",
+      "名鐵瀬戸線"
+    ],
+    "duration": "1-1.5小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://www.tokugawa-art-museum.jp/wp-content/uploads/2025/03/main_01.jpg",
+    "official_url": "https://www.tokugawa-art-museum.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "徳川園 公衆トイレ",
+        "position": [
+          136.932462,
+          35.184277
+        ],
+        "distance": "約150m"
+      },
+      {
+        "name": "徳川園 公衆トイレ",
+        "position": [
+          136.931964,
+          35.183989
+        ],
+        "distance": "約180m"
+      },
+      {
+        "name": "徳川園 遊び場 ﾊﾞﾘｱﾌﾘｰトイレ",
+        "position": [
+          136.933879,
+          35.185376
+        ],
+        "distance": "約200m"
+      },
+      {
+        "name": "大曽根口トイレ",
+        "position": [
+          136.932719,
+          35.185476
+        ],
+        "distance": "約230m"
+      },
+      {
+        "name": "新出来公園 公衆トイレ",
+        "position": [
+          136.937404,
+          35.184629
+        ],
+        "distance": "約340m"
+      }
+    ]
+  },
+  {
+    "name": "文喫 栄",
+    "title": "文喫 栄",
+    "position": [
+      136.909457,
+      35.168945
+    ],
+    "type": "place",
+    "interest": 3,
+    "category": "知性趣味",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "duration": "1-2小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://sakae.bunkitsu.jp/wp/wp-content/themes/bunkitsutenjin-renew/img/bunkitsu_sak_04.jpg",
+    "official_url": "https://sakae.bunkitsu.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "トイレ",
+        "position": [
+          136.908596,
+          35.168135
+        ],
+        "distance": "約120m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908276,
+          35.169612
+        ],
+        "distance": "約130m"
+      },
+      {
+        "name": "栄町駅 バリアフリートイレ",
+        "position": [
+          136.908835,
+          35.170823
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "原内科クリニック",
+        "position": [
+          136.911934,
+          35.167725
+        ],
+        "distance": "約260m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.90955,
+          35.171728
+        ],
+        "distance": "約310m"
+      }
+    ]
+  },
+  {
+    "name": "明治村",
+    "title": "明治村",
+    "position": [
+      136.98925,
+      35.34175
+    ],
+    "type": "place",
+    "interest": 5,
+    "category": "文化古蹟",
+    "district": "犬山城下町",
+    "station": "犬山站（名鐵）",
+    "lines": [
+      "名鐵犬山線",
+      "名鐵小牧線"
+    ],
+    "duration": "半天至一天（佔地約100萬平方公尺，日本主題樂園規模第三大，園內建築超過60棟，若想細看全部甚至一整天都不夠，YouTube上有分享者花了6小時以上才逛完）",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://centrip-japan.com/spot/img/mmspring.jpg",
+    "official_url": "https://www.meijimura.com/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "トイレ",
+        "position": [
+          136.989429,
+          35.341216
+        ],
+        "distance": "約60m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.988377,
+          35.340277
+        ],
+        "distance": "約180m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.990457,
+          35.34315
+        ],
+        "distance": "約190m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.988006,
+          35.340369
+        ],
+        "distance": "約190m"
+      },
+      {
+        "name": "お手洗い",
+        "position": [
+          136.991425,
+          35.342138
+        ],
+        "distance": "約200m"
+      }
+    ]
+  },
+  {
+    "name": "有樂苑",
+    "title": "有樂苑",
+    "position": [
+      136.94225,
+      35.387889
+    ],
+    "type": "place",
+    "interest": 4,
+    "category": "文化古蹟",
+    "district": "犬山城下町",
+    "station": "犬山遊園站（名鐵）",
+    "lines": [
+      "名鐵犬山線"
+    ],
+    "duration": "1小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://aichinow.pref.aichi.jp/upload/site/spots/b85dc0388078bb868b9fcaa1ee8af749.jpg",
+    "official_url": "https://www.meitetsu.co.jp/urakuen/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "彩雲橋公衆トイレ",
+        "position": [
+          136.941387,
+          35.389381
+        ],
+        "distance": "約180m"
+      },
+      {
+        "name": "内田防災公園 公衆トイレ",
+        "position": [
+          136.942391,
+          35.386233
+        ],
+        "distance": "約180m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.939857,
+          35.387965
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "針綱神社公衆トイレ",
+        "position": [
+          136.939775,
+          35.386486
+        ],
+        "distance": "約270m"
+      }
+    ]
+  },
+  {
+    "name": "柳橋中央市場",
+    "title": "柳橋中央市場",
+    "position": [
+      136.88812,
+      35.170041
+    ],
+    "type": "place",
+    "interest": 5,
+    "category": "逛街尋寶",
+    "district": "名古屋站前",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "duration": "1.5-2小時",
+    "status": "confirmed",
+    "priority": "must",
+    "image": "https://www.nagoya-info.jp/upload/spots/large/74935535967022b6b26ecc.jpg",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.885945,
+          35.170553
+        ],
+        "distance": "約210m"
+      },
+      {
+        "name": "大東海ビル 地下1階トイレ",
+        "position": [
+          136.887889,
+          35.172464
+        ],
+        "distance": "約270m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.884906,
+          35.170382
+        ],
+        "distance": "約290m"
+      },
+      {
+        "name": "女子トイレ",
+        "position": [
+          136.883428,
+          35.169187
+        ],
+        "distance": "約440m"
+      },
+      {
+        "name": "男子トイレ",
+        "position": [
+          136.883391,
+          35.169188
+        ],
+        "distance": "約440m"
+      }
+    ]
+  },
+  {
+    "name": "榮摩天輪",
+    "title": "栄 摩天輪 サンシャイン（Sky-Boat）",
+    "position": [
+      136.906143,
+      35.169685
+    ],
+    "type": "place",
+    "interest": 2,
+    "category": "知性趣味",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "duration": "約0.5小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://www.nagoya-info.jp/upload/spots/large/10612979685e329adedaa87.jpg",
+    "official_url": "https://sunshine-sakae.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908276,
+          35.169612
+        ],
+        "distance": "約190m"
+      },
+      {
+        "name": "栄町駅 バリアフリートイレ",
+        "position": [
+          136.908835,
+          35.170823
+        ],
+        "distance": "約280m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.908596,
+          35.168135
+        ],
+        "distance": "約280m"
+      },
+      {
+        "name": "ツルシゲ通り1 公衆トイレ",
+        "position": [
+          136.905325,
+          35.172394
+        ],
+        "distance": "約310m"
+      },
+      {
+        "name": "中部電力 MIRAI TOWER下 公衆トイレ",
+        "position": [
+          136.908338,
+          35.172345
+        ],
+        "distance": "約360m"
+      }
+    ]
+  },
+  {
+    "name": "榮商圈",
+    "title": "榮商圈",
+    "position": [
+      136.909457,
+      35.168945
+    ],
+    "type": "place",
+    "interest": 5,
+    "category": "逛街尋寶",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "duration": "2-3小時",
+    "status": "researching",
+    "priority": "must",
+    "image": "04-Attachments/Pasted-image-20260724191120.png",
+    "days": [
+      "Day3",
+      "Day5"
+    ],
+    "restrooms": [
+      {
+        "name": "トイレ",
+        "position": [
+          136.908596,
+          35.168135
+        ],
+        "distance": "約120m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908276,
+          35.169612
+        ],
+        "distance": "約130m"
+      },
+      {
+        "name": "栄町駅 バリアフリートイレ",
+        "position": [
+          136.908835,
+          35.170823
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "原内科クリニック",
+        "position": [
+          136.911934,
+          35.167725
+        ],
+        "distance": "約260m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.90955,
+          35.171728
+        ],
+        "distance": "約310m"
+      }
+    ]
+  },
+  {
+    "name": "瀨戶（陶藝之城）",
+    "title": "瀨戶（陶藝之城）",
+    "position": [
+      137.0842333,
+      35.2236132
+    ],
+    "type": "place",
+    "interest": 4,
+    "category": "文化古蹟",
+    "district": "瀨戶",
+    "station": "尾張瀨戶站（名鐵瀨戶線）",
+    "lines": [
+      "名鐵瀬戸線"
+    ],
+    "duration": "半天（3-4小時）",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://res.cloudinary.com/jnto/image/upload/w_2064,h_1300,c_fill,f_auto,fl_lossy,q_auto/v1647332385/aichi/M_00780-2_001",
+    "official_url": "https://www.seto-marutto.info/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "瀬戸市役所前駅前 ﾊﾞﾘｱﾌﾘｰトイレ",
+        "position": [
+          137.084682,
+          35.225006
+        ],
+        "distance": "約160m"
+      }
+    ]
+  },
+  {
+    "name": "熱田神宮",
+    "title": "熱田神宮",
+    "position": [
+      136.910275,
+      35.125736
+    ],
+    "type": "place",
+    "interest": 5,
+    "category": "文化古蹟",
+    "district": "熱田",
+    "station": "神宮前站（名鐵）",
+    "lines": [
+      "名鐵名古屋本線",
+      "名鐵常滑線"
+    ],
+    "duration": "1-1.5小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://www.atsutajingu.or.jp/images/top/main.jpg",
+    "official_url": "https://www.atsutajingu.or.jp/",
+    "days": [
+      "Day6"
+    ],
+    "restrooms": [
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.910316,
+          35.125951
+        ],
+        "distance": "約20m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.910558,
+          35.126612
+        ],
+        "distance": "約100m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.909448,
+          35.125006
+        ],
+        "distance": "約110m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.909478,
+          35.126576
+        ],
+        "distance": "約120m"
+      },
+      {
+        "name": "神宮前駅 トイレ",
+        "position": [
+          136.912464,
+          35.12578
+        ],
+        "distance": "約200m"
+      }
+    ]
+  },
+  {
+    "name": "犬山城",
+    "title": "犬山城",
+    "position": [
+      136.939245,
+      35.38832
+    ],
+    "type": "place",
+    "interest": 5,
+    "category": "文化古蹟",
+    "district": "犬山城下町",
+    "station": "犬山站（名鐵）",
+    "lines": [
+      "名鐵犬山線",
+      "名鐵小牧線"
+    ],
+    "duration": "1-2小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://inuyama-castle.jp/assets/castle/img/ogp.jpg",
+    "official_url": "https://inuyama-castle.jp/",
+    "days": [
+      "Day5"
+    ],
+    "restrooms": [
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.939857,
+          35.387965
+        ],
+        "distance": "約70m"
+      },
+      {
+        "name": "針綱神社公衆トイレ",
+        "position": [
+          136.939775,
+          35.386486
+        ],
+        "distance": "約210m"
+      },
+      {
+        "name": "彩雲橋公衆トイレ",
+        "position": [
+          136.941387,
+          35.389381
+        ],
+        "distance": "約230m"
+      },
+      {
+        "name": "犬山丸の内緑地公衆トイレ",
+        "position": [
+          136.936939,
+          35.386235
+        ],
+        "distance": "約310m"
+      },
+      {
+        "name": "内田防災公園 公衆トイレ",
+        "position": [
+          136.942391,
+          35.386233
+        ],
+        "distance": "約370m"
+      }
+    ]
+  },
+  {
+    "name": "白鳥庭園",
+    "title": "白鳥庭園",
+    "position": [
+      136.901252,
+      35.126327
+    ],
+    "type": "place",
+    "interest": 4,
+    "category": "自然漫步",
+    "district": "熱田",
+    "station": "熱田神宮西站（地下鐵名城線）",
+    "lines": [
+      "地下鐵名城線"
+    ],
+    "duration": "1小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://www.shirotori-garden.jp/media/20260627-095054-959.jpg",
+    "official_url": "https://www.shirotori-garden.jp/",
+    "days": [
+      "Day6"
+    ],
+    "restrooms": [
+      {
+        "name": "白鳥庭園 公衆トイレ",
+        "position": [
+          136.900669,
+          35.12684
+        ],
+        "distance": "約80m"
+      },
+      {
+        "name": "白鳥公園公衆トイレ",
+        "position": [
+          136.901399,
+          35.127652
+        ],
+        "distance": "約150m"
+      },
+      {
+        "name": "白鳥公園(旗屋町公園)公衆トイレ",
+        "position": [
+          136.903685,
+          35.128232
+        ],
+        "distance": "約310m"
+      },
+      {
+        "name": "熱田神宮公園 公衆トイレ",
+        "position": [
+          136.901302,
+          35.130356
+        ],
+        "distance": "約450m"
+      },
+      {
+        "name": "熱田神宮公園公衆トイレ",
+        "position": [
+          136.902715,
+          35.130273
+        ],
+        "distance": "約460m"
+      }
+    ]
+  },
+  {
+    "name": "綠洲21",
+    "title": "綠洲21 ( オアシス21 )",
+    "position": [
+      136.9096,
+      35.1711
+    ],
+    "type": "place",
+    "interest": 3,
+    "category": "逛街尋寶",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "duration": "0.5-1小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://www.nagoya-info.jp/upload/spots/large/376802915e32947b10145.jpg",
+    "official_url": "https://www.sakaepark.co.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.90955,
+          35.171728
+        ],
+        "distance": "約70m"
+      },
+      {
+        "name": "栄町駅 バリアフリートイレ",
+        "position": [
+          136.908835,
+          35.170823
+        ],
+        "distance": "約80m"
+      },
+      {
+        "name": "中部電力 MIRAI TOWER下 公衆トイレ",
+        "position": [
+          136.908338,
+          35.172345
+        ],
+        "distance": "約180m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908642,
+          35.172536
+        ],
+        "distance": "約180m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908276,
+          35.169612
+        ],
+        "distance": "約200m"
+      }
+    ]
+  },
+  {
+    "name": "萬松寺",
+    "title": "萬松寺",
+    "position": [
+      136.904674,
+      35.1591189
+    ],
+    "type": "place",
+    "interest": 3,
+    "category": "文化古蹟",
+    "district": "大須",
+    "station": "大須觀音站（地下鐵名城線）",
+    "lines": [
+      "地下鐵名城線"
+    ],
+    "duration": "0.5小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://www.nagoya-info.jp/upload/spots/large/2223364075e546e7bca6f2.jpg",
+    "official_url": "https://www.banshoji.or.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "第1アメ横ビル 2Fトイレ",
+        "position": [
+          136.905377,
+          35.15975
+        ],
+        "distance": "約90m"
+      },
+      {
+        "name": "裏門前公園公衆トイレ",
+        "position": [
+          136.903833,
+          35.161342
+        ],
+        "distance": "約260m"
+      },
+      {
+        "name": "那古野古墳前 公衆トイレ",
+        "position": [
+          136.901104,
+          35.159637
+        ],
+        "distance": "約330m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.904082,
+          35.162218
+        ],
+        "distance": "約350m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.908387,
+          35.160602
+        ],
+        "distance": "約380m"
+      }
+    ]
+  },
+  {
+    "name": "豐國神社 九之市",
+    "title": "豐國神社 九之市",
+    "position": [
+      136.855867,
+      35.174151
+    ],
+    "type": "place",
+    "interest": 4,
+    "category": "文化古蹟",
+    "district": "中村公園",
+    "station": "中村公園站",
+    "lines": [
+      "地下鐵東山線"
+    ],
+    "duration": "1小時",
+    "status": "researching",
+    "priority": "optional",
+    "image": "https://www.nagoya-info.jp/upload/spots/large/20752580685e547c33293d0.jpg",
+    "official_url": "http://toyokuni-jinja.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "中村公園 公衆トイレ",
+        "position": [
+          136.856018,
+          35.174697
+        ],
+        "distance": "約60m"
+      },
+      {
+        "name": "中村公園 公衆トイレ",
+        "position": [
+          136.855129,
+          35.174575
+        ],
+        "distance": "約80m"
+      },
+      {
+        "name": "児童園トイレ",
+        "position": [
+          136.855503,
+          35.17347
+        ],
+        "distance": "約80m"
+      },
+      {
+        "name": "中村公園公衆トイレ",
+        "position": [
+          136.855534,
+          35.173443
+        ],
+        "distance": "約80m"
+      },
+      {
+        "name": "中村公園 公衆トイレ",
+        "position": [
+          136.854448,
+          35.174502
+        ],
+        "distance": "約130m"
+      }
+    ]
+  },
+  {
+    "name": "豐田産業技術記念館",
+    "title": "豐田産業技術記念館（Toyota Techno Museum）",
+    "position": [
+      136.8765247,
+      35.1825118
+    ],
+    "type": "place",
+    "interest": 5,
+    "category": "知性趣味",
+    "district": "則武新町",
+    "station": "榮生站（名鐵）",
+    "lines": [
+      "名鐵名古屋本線",
+      "名鐵犬山線"
+    ],
+    "duration": "2-3小時",
+    "status": "researching",
+    "priority": "must",
+    "image": "https://www.nagoya-info.jp/upload/spots/large/16176073756597606ecf816.jpg",
+    "official_url": "https://www.tcmit.org/",
+    "days": [
+      "Day3"
+    ],
+    "restrooms": [
+      {
+        "name": "栄生公園 公衆トイレ",
+        "position": [
+          136.875955,
+          35.184386
+        ],
+        "distance": "約210m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.879955,
+          35.18243
+        ],
+        "distance": "約310m"
+      },
+      {
+        "name": "南押切中央公園公衆トイレ",
+        "position": [
+          136.881081,
+          35.184693
+        ],
+        "distance": "約480m"
+      }
+    ]
+  },
+  {
+    "name": "金鯱橫丁",
+    "title": "金鯱橫丁",
+    "position": [
+      136.8992,
+      35.1829
+    ],
+    "type": "place",
+    "interest": 5,
+    "category": "逛街尋寶",
+    "district": "三之丸",
+    "station": "名古屋城站（地下鐵名城線）",
+    "lines": [
+      "地下鐵名城線"
+    ],
+    "duration": "1-1.5小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://www.nagoya-info.jp/upload/spots/large/16789264265e4a56dc82ec3.jpg",
+    "official_url": "https://kinshachi-yokocho.com/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.897937,
+          35.182639
+        ],
+        "distance": "約120m"
+      },
+      {
+        "name": "正門公衆トイレ",
+        "position": [
+          136.897963,
+          35.183566
+        ],
+        "distance": "約130m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.900395,
+          35.183878
+        ],
+        "distance": "約150m"
+      },
+      {
+        "name": "ﾊﾞﾘｱﾌﾘｰ公衆トイレ",
+        "position": [
+          136.896886,
+          35.181524
+        ],
+        "distance": "約260m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.895934,
+          35.18319
+        ],
+        "distance": "約300m"
+      }
+    ]
+  },
+  {
+    "name": "鉄道館リニア",
+    "title": "鉄道館 リニア（SCMAGLEV and Railway Park）",
+    "position": [
+      136.851006,
+      35.049072
+    ],
+    "type": "place",
+    "interest": 3,
+    "category": "知性趣味",
+    "district": "港區金城ふ頭",
+    "station": "金城ふ頭站（あおなみ線）",
+    "lines": [
+      "あおなみ線"
+    ],
+    "duration": "2-2.5小時",
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://museum.jr-central.co.jp/_img/kv_01.jpg",
+    "official_url": "https://museum.jr-central.co.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.850883,
+          35.049985
+        ],
+        "distance": "約100m"
+      },
+      {
+        "name": "金城ふ頭中央緑地 公衆トイレ",
+        "position": [
+          136.847078,
+          35.046953
+        ],
+        "distance": "約430m"
+      },
+      {
+        "name": "トイレ メイカーズピア内",
+        "position": [
+          136.846979,
+          35.051444
+        ],
+        "distance": "約450m"
+      }
+    ]
+  },
+  {
+    "name": "Albis 中村二瀬店",
+    "title": "Albis アルビス 中村二瀬店",
+    "position": [
+      136.8503413,
+      35.1604196
+    ],
+    "type": "supermarket",
+    "district": "中村區",
+    "station": "岩塚站（名鐵名古屋本線）",
+    "lines": [
+      "名鐵名古屋本線"
+    ],
+    "status": "researching",
+    "priority": "optional",
+    "image": "04-Attachments/Pasted-image-20260803133230.png",
+    "official_url": "https://www.albis.co.jp/home/shop/detail?shopCd=840",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "鴨付公園 公衆トイレ",
+        "position": [
+          136.845622,
+          35.161244
+        ],
+        "distance": "約440m"
+      }
+    ]
+  },
+  {
+    "name": "Saison Factory 松坂屋店",
+    "title": "Saison Factory セゾンファクトリー 松坂屋名古屋店",
+    "position": [
+      136.9082367,
+      35.1650956
+    ],
+    "type": "supermarket",
+    "district": "榮",
+    "station": "矢場町站（地下鐵名城線）",
+    "lines": [
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "optional",
+    "image": "https://corp.saisonfactory.co.jp/store/images_store/store016_matsuzakaya_nagoya.jpg",
+    "official_url": "https://corp.saisonfactory.co.jp/store/store016_matsuzakaya_nagoya.html",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "久屋広場西トイレ",
+        "position": [
+          136.908728,
+          35.164578
+        ],
+        "distance": "約70m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.90934,
+          35.164547
+        ],
+        "distance": "約120m"
+      },
+      {
+        "name": "はぐくみ側 公衆トイレ",
+        "position": [
+          136.909105,
+          35.163774
+        ],
+        "distance": "約170m"
+      },
+      {
+        "name": "バリアフリートイレ",
+        "position": [
+          136.905469,
+          35.165051
+        ],
+        "distance": "約250m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.907153,
+          35.162846
+        ],
+        "distance": "約270m"
+      }
+    ]
+  },
+  {
+    "name": "Sapore 瑞穂店",
+    "title": "Sapore サポーレ 瑞穂店",
+    "position": [
+      136.9442827,
+      35.1321614
+    ],
+    "type": "supermarket",
+    "district": "瑞穗區",
+    "station": "瑞穗區役所站（地下鐵櫻通線）",
+    "lines": [
+      "地下鐵櫻通線"
+    ],
+    "status": "researching",
+    "priority": "optional",
+    "image": "https://poiend-pctr.c.yimg.jp/RbvIgEqcLh0WnvgGGwVVgTznkURkbN_CqctDurJdF3QzVNlkcq0W__pRaWgCqCHpHEeYayubk2Qeckb8z4df3kbi5JwNvSprVVPkNYjgH9GCwCD7MI9x82E7PqAGL03eZUgsqSKpM-pvjC4jq_QG-SjnFvOn3ZLX22ilZtKv8NPJAfO5FW-71DG94HqeTMbUh19M9l2jR6UphTix9k27BT-nQ0l14d1JoupLzh9c2U1M-gD8gMtOB0Xyu1-AMR53iNToEBj615oL1q8ZIDRf0IKd5jhUsfGnQYnp_c0X3yU=",
+    "official_url": "https://www.sapore-nagoya.com/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "田辺公園公衆トイレ",
+        "position": [
+          136.94443,
+          35.128949
+        ],
+        "distance": "約360m"
+      }
+    ]
+  },
+  {
+    "name": "TACHIYA 錦二丁目店",
+    "title": "TACHIYA タチヤ 錦二丁目店",
+    "position": [
+      136.8993882,
+      35.1713522
+    ],
+    "type": "supermarket",
+    "district": "伏見",
+    "station": "丸之內站（地下鐵鶴舞線・櫻通線）",
+    "lines": [
+      "地下鐵鶴舞線",
+      "地下鐵櫻通線"
+    ],
+    "status": "researching",
+    "priority": "optional",
+    "image": "https://poiend-pctr.c.yimg.jp/RbvIgEqcLh0WnvgGGwVVgTznkURkbN_CqctDurJdF3TPq-6wDgw-Ne_nqfUYj6XX7YRSxDLCEiASVH-_jGerqkFkNr_lBgkwJqcGi-skp--KV7WQ3LK8AeB5SFW5GNUJYcVMRhFbguDMt4A3Yzby-mMR4mQdizRrSplc1brkZ2LeMB-rAQZbvwdxKxKp4piem5P5MfPXPBcLgDgOitgScj4QvE1LEI92VwS0WSerkzZMccOzl63tZLSz24V6h7WRsPasoy-nGowZw1n2EK2A_qArFuBb3u2mdDwKNAi01BI=",
+    "official_url": "https://tachiya.co.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "地下鉄伏見駅",
+        "position": [
+          136.897778,
+          35.169681
+        ],
+        "distance": "約240m"
+      },
+      {
+        "name": "伏見駅 公衆トイレ",
+        "position": [
+          136.897911,
+          35.169158
+        ],
+        "distance": "約280m"
+      },
+      {
+        "name": "広小路本町(市バス) 5番",
+        "position": [
+          136.901995,
+          35.168906
+        ],
+        "distance": "約360m"
+      },
+      {
+        "name": "丸の内駅構内トイレ",
+        "position": [
+          136.896877,
+          35.174357
+        ],
+        "distance": "約400m"
+      },
+      {
+        "name": "下園公園公衆トイレ",
+        "position": [
+          136.895199,
+          35.169902
+        ],
+        "distance": "約410m"
+      }
+    ]
+  },
+  {
+    "name": "Valor 中小田井店",
+    "title": "Valor バロー 中小田井店",
+    "position": [
+      136.8742482,
+      35.2210246
+    ],
+    "type": "supermarket",
+    "district": "西區",
+    "station": "上小田井站（名鐵犬山線・地下鐵鶴舞線）",
+    "lines": [
+      "名鐵犬山線",
+      "地下鐵鶴舞線"
+    ],
+    "status": "researching",
+    "priority": "optional",
+    "image": "https://poiend-pctr.c.yimg.jp/RbvIgEqcLh0WnvgGGwVVgTznkURkbN_CqctDurJdF3RPuNtW2gA0pYPcPfsnzMvOFDZG55UkL9fqUjFrItSa1_xj-Ul_M195LlvyE5Rug6B-JoPxc2vXAfwrUCju_k06voEHNqB4LIATEl3Bd6T0Qi-sT4KaYwzrcFC3s8cQEtqGORI0iBS7egybTNZJFB6yNi0mN_BK67h_-IRzI399dTUCg5CHgroL5DZ5UNXrGbBuD5QCtwyyWQRvSszkZ3FG3utXl_pBW2XUI7WafHESrMPh_0xrza4jYQSMZIQCdIQ=",
+    "official_url": "https://stores.valor.jp/detail/300/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "大木曽公園公衆トイレ",
+        "position": [
+          136.875014,
+          35.219443
+        ],
+        "distance": "約190m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.872761,
+          35.21856
+        ],
+        "distance": "約310m"
+      }
+    ]
+  },
+  {
+    "name": "Valor 高辻店",
+    "title": "Valor バロー 高辻店",
+    "position": [
+      136.9134705,
+      35.1416501
+    ],
+    "type": "supermarket",
+    "district": "昭和區",
+    "station": "金山站（JR・名鐵・地下鐵名城線）",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "optional",
+    "image": "https://poiend-pctr.c.yimg.jp/RbvIgEqcLh0WnvgGGwVVgTznkURkbN_CqctDurJdF3SPY4wPQj7WCaU8JHSPKqIJYP5vkyBMAf5h4CM23_z2p-TSTQuJMp06XfQMI8jiko8IWr6auO546j72ZnsW3qO6jJ_7-sWmtRwY18xch7l15GrR1czad34c2jobBh3PS032o5OVNLezBWhMeCdy2b8xxPeY6Nb7dSxCllFgL15WEXPa63nf8fFGxmEJ777PD1s-C8ldypUJ1h-vqiP5ALPGJ9iYfpgwgPnNVlx6Ik0KzSCPXlMmW7muWeJ0dvoI2Qg=",
+    "official_url": "https://stores.valor.jp/detail/280/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "高辻公園 公衆トイレ",
+        "position": [
+          136.91695,
+          35.141737
+        ],
+        "distance": "約320m"
+      },
+      {
+        "name": "桜田公園公衆トイレ",
+        "position": [
+          136.908008,
+          35.141193
+        ],
+        "distance": "約500m"
+      }
+    ]
+  },
+  {
+    "name": "Yamanaka 則武店",
+    "title": "Yamanaka ヤマナカ 則武店",
+    "position": [
+      136.8721926,
+      35.1748433
+    ],
+    "type": "supermarket",
+    "district": "中村區",
+    "station": "龜島站（地下鐵東山線）",
+    "lines": [
+      "地下鐵東山線"
+    ],
+    "status": "researching",
+    "priority": "optional",
+    "image": "https://poiend-pctr.c.yimg.jp/RbvIgEqcLh0WnvgGGwVVgTznkURkbN_CqctDurJdF3SfOL5lOM7302yfK_bGHwja0dbl6gtFtGAdqcx-80CfqfyUY7edQ7EZjWeIVA29l0g8HfQWR8xg5tmdBCiDKafPGQakUgT2TQsZXdWYwLUlvnl0dDsk4oZjlpmRTJDvnLOC1R9ryUFgiky5jfUeVw_zsuj_-Y6jinCXLA4gzwEZ7XM5Bk2zAwNnfbutfFSNE6_HZB9y2JjJJGRyszQhg0l1tehKMoxnjDfXxZXaBVY_kDhb8eL8d76EfuxZ2245ESU=",
+    "official_url": "https://www.super-yamanaka.co.jp/shop/shop005",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "亀島ふれあい公園 ﾊﾞﾘｱﾌﾘｰトイレ",
+        "position": [
+          136.876237,
+          35.176537
+        ],
+        "distance": "約410m"
+      },
+      {
+        "name": "則武公園公衆トイレ",
+        "position": [
+          136.875412,
+          35.171284
+        ],
+        "distance": "約490m"
+      }
+    ]
+  },
+  {
+    "name": "加藤商店",
+    "title": "加藤商店",
+    "position": [
+      136.9342071,
+      35.1545293
+    ],
+    "type": "supermarket",
+    "district": "昭和區",
+    "station": "吹上站（地下鐵鶴舞線）",
+    "lines": [
+      "地下鐵鶴舞線"
+    ],
+    "status": "researching",
+    "priority": "optional",
+    "image": "04-Attachments/Pasted-image-20260803121420.png",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "吹上公園公衆トイレ",
+        "position": [
+          136.931864,
+          35.157843
+        ],
+        "distance": "約430m"
+      },
+      {
+        "name": "スポーツセンター公衆トイレ",
+        "position": [
+          136.930203,
+          35.157556
+        ],
+        "distance": "約500m"
+      },
+      {
+        "name": "吹上公園 南側 公衆トイレ",
+        "position": [
+          136.930291,
+          35.157659
+        ],
+        "distance": "約500m"
+      }
+    ]
+  },
+  {
+    "name": "北野Ace 三越榮店",
+    "title": "北野Ace 名古屋三越栄店",
+    "position": [
+      136.9072618,
+      35.1684344
+    ],
+    "type": "supermarket",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "optional",
+    "image": "https://poiend-pctr.c.yimg.jp/RbvIgEqcLh0WnvgGGwVVgTznkURkbN_CqctDurJdF3T-rcn6kOXOAJA191CVO4Nrzr43OYJ4Wt9tjZdVz4ICr-Lg_jihzht0PEXp_by2DQQoKiLaZZSlDwXLyypXSHdn70f3CRX8tHvYsBrSS8nAIGnqYc_jS57fH1A6aWtFAoJMQKxs_9g5riCQzkZEGnwvtlPOniXu63adm0AxHrSPDd9JeYK_2X0gSUQq3WuQX4JDDPWYwNY8GvbZ9JxSE3H26ejuVTMyCibZBec3zJlzOzfsJ4F6IOes2pBEo36RI-s=",
+    "official_url": "https://www.ace-group.co.jp/store/183_806.html",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "トイレ",
+        "position": [
+          136.908596,
+          35.168135
+        ],
+        "distance": "約130m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908276,
+          35.169612
+        ],
+        "distance": "約160m"
+      },
+      {
+        "name": "栄町駅 バリアフリートイレ",
+        "position": [
+          136.908835,
+          35.170823
+        ],
+        "distance": "約300m"
+      },
+      {
+        "name": "バリアフリートイレ",
+        "position": [
+          136.905469,
+          35.165051
+        ],
+        "distance": "約410m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.90955,
+          35.171728
+        ],
+        "distance": "約420m"
+      }
+    ]
+  },
+  {
+    "name": "唐吉訶德 栄本店",
+    "title": "唐吉訶德 栄本店 ドン・キホーテ栄本店",
+    "position": [
+      136.90638,
+      35.170228
+    ],
+    "type": "supermarket",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://www.donki.com/shared/img/store/st_store/348/2014122614195795910.jpg",
+    "official_url": "https://www.donki.com/store/shop_detail.php?shop_id=348",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908276,
+          35.169612
+        ],
+        "distance": "約190m"
+      },
+      {
+        "name": "栄町駅 バリアフリートイレ",
+        "position": [
+          136.908835,
+          35.170823
+        ],
+        "distance": "約230m"
+      },
+      {
+        "name": "ツルシゲ通り1 公衆トイレ",
+        "position": [
+          136.905325,
+          35.172394
+        ],
+        "distance": "約260m"
+      },
+      {
+        "name": "中部電力 MIRAI TOWER下 公衆トイレ",
+        "position": [
+          136.908338,
+          35.172345
+        ],
+        "distance": "約300m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.908596,
+          35.168135
+        ],
+        "distance": "約310m"
+      }
+    ]
+  },
+  {
+    "name": "成城石井 マルエイガレリア店",
+    "title": "成城石井 マルエイガレリア店",
+    "position": [
+      136.905179,
+      35.168413
+    ],
+    "type": "supermarket",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Maruei_Galleria_-_3.jpg",
+    "official_url": "https://www.seijoishii.co.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "広小路本町(市バス) 5番",
+        "position": [
+          136.901995,
+          35.168906
+        ],
+        "distance": "約290m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908276,
+          35.169612
+        ],
+        "distance": "約310m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.908596,
+          35.168135
+        ],
+        "distance": "約310m"
+      },
+      {
+        "name": "バリアフリートイレ",
+        "position": [
+          136.905469,
+          35.165051
+        ],
+        "distance": "約370m"
+      },
+      {
+        "name": "栄町駅 バリアフリートイレ",
+        "position": [
+          136.908835,
+          35.170823
+        ],
+        "distance": "約430m"
+      }
+    ]
+  },
+  {
+    "name": "成城石井 中央花園店",
+    "title": "成城石井 名古屋 中央花園店",
+    "position": [
+      136.9444671,
+      35.1714496
+    ],
+    "type": "supermarket",
+    "district": "千種區",
+    "station": "池下站（地下鐵東山線）",
+    "lines": [
+      "地下鐵東山線"
+    ],
+    "status": "researching",
+    "priority": "optional",
+    "image": "https://poiend-pctr.c.yimg.jp/RbvIgEqcLh0WnvgGGwVVgTznkURkbN_CqctDurJdF3QKR7WYRZwTJopTRopTdQBBLH2jyglTcR7WStRCjXlPpFo7i7IudNOQSewOGCrpwVONlXyDKToSDNTOMm2HaaVl4kfs26N8L9zkjOM5ohQ4eVxq4Pn14aT_DmvCOL5cwDZFrg7WRwbks3rzQ3vj19knmaDVzSQ4dk-FnwPY4vpejWGqJ_Nrz6-apckRhtFtwxNWjrhxoqIibeERZGEHTsC_WQ7lIYspwzjyGpSyWjW8NLxd7EcNvtXxyVZ9yFbMGhY=",
+    "official_url": "https://shop.seijoishii.com/seijoishii/spot/detail?code=0046",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "仲田公園トイレ",
+        "position": [
+          136.941653,
+          35.170847
+        ],
+        "distance": "約260m"
+      },
+      {
+        "name": "プロムナード高見トイレ",
+        "position": [
+          136.94881,
+          35.173695
+        ],
+        "distance": "約470m"
+      },
+      {
+        "name": "千種公園 公衆トイレ",
+        "position": [
+          136.943343,
+          35.175758
+        ],
+        "distance": "約490m"
+      }
+    ]
+  },
+  {
+    "name": "成城石井 名駅店",
+    "title": "成城石井 名古屋駅広小路口店",
+    "position": [
+      136.8833471,
+      35.1696419
+    ],
+    "type": "supermarket",
+    "district": "名駅",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "optional",
+    "image": "https://poiend-pctr.c.yimg.jp/RbvIgEqcLh0WnvgGGwVVgTznkURkbN_CqctDurJdF3RAVvuOnZ9EyDk51mcauZ6AMUsj1R4YNvVBPOQDtLhicUdFhmMXWjG8xzssIcUzR4drXs59EWz1xL6_XbPgMKKMOADy1VnPXUOw1zDqV7_tl43kBSiBUcDYXwbhZXOqCHs-E_pZAFwJSwtV22FJeqDS4x42gH0haipXOlJZPL9DiwfdqrTPnzbNyBVHXUWZoNuU03K2tkHNhUCB8QtBrkN-l-gHqsnhGcEuHWJztpauKYkCsNIt-0uxYB_7TNk6U20=",
+    "official_url": "https://shop.seijoishii.com/seijoishii/spot/detail?code=0035",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "うまいもん通り広小路口 多機能トイレ",
+        "position": [
+          136.883368,
+          35.169209
+        ],
+        "distance": "約50m"
+      },
+      {
+        "name": "男子トイレ",
+        "position": [
+          136.883391,
+          35.169188
+        ],
+        "distance": "約50m"
+      },
+      {
+        "name": "女子トイレ",
+        "position": [
+          136.883428,
+          35.169187
+        ],
+        "distance": "約50m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.88211,
+          35.170356
+        ],
+        "distance": "約140m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.884906,
+          35.170382
+        ],
+        "distance": "約160m"
+      }
+    ]
+  },
+  {
+    "name": "成城石井 大名古屋店",
+    "title": "成城石井 大名古屋ビルヂング店",
+    "position": [
+      136.8840041,
+      35.172076
+    ],
+    "type": "supermarket",
+    "district": "名駅",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "optional",
+    "image": "https://poiend-pctr.c.yimg.jp/RbvIgEqcLh0WnvgGGwVVgTznkURkbN_CqctDurJdF3S2kKSguDPVfO4EQkfxAu9p6SnvxKnZXAmsY_9ThzkMkt--EcFy95uUXG7cu5oWd1axB6Ri7KHUJ4MDp7eQUBMq97d10xaEuVK1Bxx5LrAjtEsWPpCj9FQ9LSqv4byYdtlXzbZ4e6ibUpWa5QKPirHlNKLCOBVMHrcS0JY_-BCtxGVlwTj_EmrgpNBHqbkfVaVTLNPUXnkaVQ7OMaVkGykB_MDnN_a5ehsriePVsgh72HdrAG9-Kkj6KmFu6TFqpAM=",
+    "official_url": "https://shop.seijoishii.com/seijoishii/spot/detail?code=0230",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.882084,
+          35.171698
+        ],
+        "distance": "約180m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.884906,
+          35.170382
+        ],
+        "distance": "約210m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.885945,
+          35.170553
+        ],
+        "distance": "約240m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.88211,
+          35.170356
+        ],
+        "distance": "約260m"
+      },
+      {
+        "name": "うまいもん通り広小路口 多機能トイレ",
+        "position": [
+          136.883368,
+          35.169209
+        ],
+        "distance": "約320m"
+      }
+    ]
+  },
+  {
+    "name": "生鮮食品館サノヤ",
+    "title": "生鮮食品館サノヤ",
+    "position": [
+      136.9046065,
+      35.1587743
+    ],
+    "type": "supermarket",
+    "district": "大須",
+    "station": "上前津站（地下鐵鶴舞線・名城線）",
+    "lines": [
+      "地下鐵鶴舞線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "optional",
+    "image": "https://poiend-pctr.c.yimg.jp/RbvIgEqcLh0WnvgGGwVVgTznkURkbN_CqctDurJdF3TXiRP4l5kpuSxgHjKQ1wOF1y3vrABzw03oOdK-SouU_Q1QBv13-JBU0nzfXsYr9OmCF5rn7ghTIgHScdj3ZB06cGWFY2SAM1TGLQa6xweX73x0aM8bYQKnqYORK3HNvQ3dEIk6y7hqzNOoiBgGVPjy6ENc6iFwbJQ6XkQ5Zui2khKueZnYSq9isJjOyp8wYAOwSJQTdLKTD5bbrQ5WCwN5rHqkKShElyx3rxbUqSJ7ZRCxB1TIquQlWIK3yaEr30M=",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "第1アメ横ビル 2Fトイレ",
+        "position": [
+          136.905377,
+          35.15975
+        ],
+        "distance": "約130m"
+      },
+      {
+        "name": "裏門前公園公衆トイレ",
+        "position": [
+          136.903833,
+          35.161342
+        ],
+        "distance": "約290m"
+      },
+      {
+        "name": "那古野古墳前 公衆トイレ",
+        "position": [
+          136.901104,
+          35.159637
+        ],
+        "distance": "約330m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.904082,
+          35.162218
+        ],
+        "distance": "約390m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.908387,
+          35.160602
+        ],
+        "distance": "約400m"
+      }
+    ]
+  },
+  {
+    "name": "AOI CELESTIE COFFEE ROASTERY",
+    "title": "AOI CELESTIE COFFEE ROASTERY",
+    "position": [
+      136.919083,
+      35.17094
+    ],
+    "type": "food",
+    "category": "點心輕食",
+    "district": "新栄",
+    "station": "新栄町站（地下鐵東山線）",
+    "lines": [
+      "地下鐵東山線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "snack",
+    "cuisine": "精品咖啡・烘豆",
+    "booking_required": false,
+    "image": "https://aoi-celestie.com/assets/image/splash_bg.webp",
+    "official_url": "https://aoi-celestie.com/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "布池公園 公衆トイレ",
+        "position": [
+          136.922607,
+          35.173119
+        ],
+        "distance": "約400m"
+      }
+    ]
+  },
+  {
+    "name": "Blue Bottle 榮店",
+    "title": "Blue Bottle Coffee ブルーボトルコーヒー 名古屋栄カフェ",
+    "position": [
+      136.909457,
+      35.168945
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "點心輕食",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "breakfast",
+    "cuisine": "咖啡、輕食、甜點",
+    "price_range": "布丁990円（含稅）",
+    "booking_required": false,
+    "image": "https://poiend-pctr.c.yimg.jp/RbvIgEqcLh0WnvgGGwVVgTznkURkbN_CqctDurJdF3Qr278No3mTpigoeZBf4_1-IlkMnudJsRZFZxQBNqkZUbFzOZT2dtHQgF8UfM5Brhc6i4FVW_I7QMuc_nkccPXNLfFJi7P2e2kDOMvk4PhNLvHinOjflD_shVjA9VsQR2qpYlwosK-6jJ96EKBzd-27lKxoqsDGpM4HmKSliXaqkWgjJhpo-dx5K5CNNIQLkZUYhBzE9IjiR6o1ZQVImKrR-bQbLYqnSm0FKE6aUovVtB0be6s5Y4SOp9_CWSh7yOA=",
+    "official_url": "https://store.bluebottlecoffee.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "トイレ",
+        "position": [
+          136.908596,
+          35.168135
+        ],
+        "distance": "約120m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908276,
+          35.169612
+        ],
+        "distance": "約130m"
+      },
+      {
+        "name": "栄町駅 バリアフリートイレ",
+        "position": [
+          136.908835,
+          35.170823
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "原内科クリニック",
+        "position": [
+          136.911934,
+          35.167725
+        ],
+        "distance": "約260m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.90955,
+          35.171728
+        ],
+        "distance": "約310m"
+      }
+    ]
+  },
+  {
+    "name": "TAKASU 本店",
+    "title": "CHOCOLATERIE TAKASU 本店",
+    "position": [
+      136.907516,
+      35.174271
+    ],
+    "type": "food",
+    "category": "點心輕食",
+    "district": "榮",
+    "station": "久屋大通站（地下鐵櫻通線・名城線）",
+    "lines": [
+      "地下鐵櫻通線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "snack",
+    "cuisine": "巧克力專門店",
+    "booking_required": false,
+    "image": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/38657754.jpg",
+    "official_url": "https://www.chocolaterie-takasu.com/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908642,
+          35.172536
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "中部電力 MIRAI TOWER下 公衆トイレ",
+        "position": [
+          136.908338,
+          35.172345
+        ],
+        "distance": "約230m"
+      },
+      {
+        "name": "ツルシゲ通り1 公衆トイレ",
+        "position": [
+          136.905325,
+          35.172394
+        ],
+        "distance": "約290m"
+      },
+      {
+        "name": "久屋大通公園公衆トイレ",
+        "position": [
+          136.908193,
+          35.176861
+        ],
+        "distance": "約290m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.90955,
+          35.171728
+        ],
+        "distance": "約340m"
+      }
+    ]
+  },
+  {
+    "name": "HARBS 栄本店",
+    "title": "HARBS ハーブス 栄本店",
+    "position": [
+      136.9077282,
+      35.1718774
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "點心輕食",
+    "district": "榮",
+    "station": "榮站",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "水果千層蛋糕（ミルクレープ）、西式蛋糕",
+    "booking_required": false,
+    "image": "https://www.harbs.co.jp/wp/wp-content/uploads/2023/04/ミルクレープ.png",
+    "official_url": "https://www.harbs.co.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "中部電力 MIRAI TOWER下 公衆トイレ",
+        "position": [
+          136.908338,
+          35.172345
+        ],
+        "distance": "約80m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908642,
+          35.172536
+        ],
+        "distance": "約110m"
+      },
+      {
+        "name": "栄町駅 バリアフリートイレ",
+        "position": [
+          136.908835,
+          35.170823
+        ],
+        "distance": "約150m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.90955,
+          35.171728
+        ],
+        "distance": "約170m"
+      },
+      {
+        "name": "ツルシゲ通り1 公衆トイレ",
+        "position": [
+          136.905325,
+          35.172394
+        ],
+        "distance": "約230m"
+      }
+    ]
+  },
+  {
+    "name": "KONPARU サンロード店",
+    "title": "KONPARU コンパル サンロード店",
+    "position": [
+      136.884547,
+      35.169718
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "點心輕食",
+    "district": "名古屋站前",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "breakfast",
+    "cuisine": "喫茶店（名古屋早餐文化）",
+    "booking_required": false,
+    "image": "https://www.konparu.co.jp/images/shop_sunroad_l.jpg",
+    "official_url": "https://www.konparu.co.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.884906,
+          35.170382
+        ],
+        "distance": "約80m"
+      },
+      {
+        "name": "女子トイレ",
+        "position": [
+          136.883428,
+          35.169187
+        ],
+        "distance": "約120m"
+      },
+      {
+        "name": "男子トイレ",
+        "position": [
+          136.883391,
+          35.169188
+        ],
+        "distance": "約120m"
+      },
+      {
+        "name": "うまいもん通り広小路口 多機能トイレ",
+        "position": [
+          136.883368,
+          35.169209
+        ],
+        "distance": "約120m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.885945,
+          35.170553
+        ],
+        "distance": "約160m"
+      }
+    ]
+  },
+  {
+    "name": "KONPARU 大須本店",
+    "title": "KONPARU コンパル 大須本店",
+    "position": [
+      136.9047,
+      35.1594
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "點心輕食",
+    "district": "大須",
+    "station": "大須觀音站（地下鐵名城線）",
+    "lines": [
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "breakfast",
+    "cuisine": "喫茶店（名古屋早餐文化）",
+    "booking_required": false,
+    "image": "https://www.konparu.co.jp/images/shop_osu_l.jpg",
+    "official_url": "https://www.konparu.co.jp/",
+    "days": [
+      "Day6"
+    ],
+    "restrooms": [
+      {
+        "name": "第1アメ横ビル 2Fトイレ",
+        "position": [
+          136.905377,
+          35.15975
+        ],
+        "distance": "約70m"
+      },
+      {
+        "name": "裏門前公園公衆トイレ",
+        "position": [
+          136.903833,
+          35.161342
+        ],
+        "distance": "約230m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.904082,
+          35.162218
+        ],
+        "distance": "約320m"
+      },
+      {
+        "name": "那古野古墳前 公衆トイレ",
+        "position": [
+          136.901104,
+          35.159637
+        ],
+        "distance": "約330m"
+      },
+      {
+        "name": "若宮大通り公園公衆トイレ",
+        "position": [
+          136.905313,
+          35.162501
+        ],
+        "distance": "約350m"
+      }
+    ]
+  },
+  {
+    "name": "KONPARU 栄東店",
+    "title": "KONPARU コンパル 栄東店",
+    "position": [
+      136.909008,
+      35.169401
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "點心輕食",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "breakfast",
+    "cuisine": "喫茶店（名古屋早餐文化）",
+    "booking_required": false,
+    "image": "https://www.konparu.co.jp/images/shop_sakaehigashi_l.jpg",
+    "official_url": "https://www.konparu.co.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908276,
+          35.169612
+        ],
+        "distance": "約70m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.908596,
+          35.168135
+        ],
+        "distance": "約150m"
+      },
+      {
+        "name": "栄町駅 バリアフリートイレ",
+        "position": [
+          136.908835,
+          35.170823
+        ],
+        "distance": "約160m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.90955,
+          35.171728
+        ],
+        "distance": "約260m"
+      },
+      {
+        "name": "原内科クリニック",
+        "position": [
+          136.911934,
+          35.167725
+        ],
+        "distance": "約320m"
+      }
+    ]
+  },
+  {
+    "name": "MATUMURA 中日ビル店",
+    "title": "MATUMURA カツレツ 中日ビル店",
+    "position": [
+      136.909457,
+      35.168945
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "名古屋鄉土限定",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "味噌豬排（法式作法，使用低溫熟成豬）",
+    "booking_required": true,
+    "image": "https://katuretu-matumura.com/images/convert/katuretu-matumuracom/square_20260213095815.jpg/image.webp",
+    "official_url": "https://katuretu-matumura.com/menu-matumura-bis/",
+    "days": [
+      "Day1"
+    ],
+    "restrooms": [
+      {
+        "name": "トイレ",
+        "position": [
+          136.908596,
+          35.168135
+        ],
+        "distance": "約120m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908276,
+          35.169612
+        ],
+        "distance": "約130m"
+      },
+      {
+        "name": "栄町駅 バリアフリートイレ",
+        "position": [
+          136.908835,
+          35.170823
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "原内科クリニック",
+        "position": [
+          136.911934,
+          35.167725
+        ],
+        "distance": "約260m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.90955,
+          35.171728
+        ],
+        "distance": "約310m"
+      }
+    ]
+  },
+  {
+    "name": "MATUMURA 大名古屋店",
+    "title": "MATUMURA カツレツ 大名古屋ビルヂング店",
+    "position": [
+      136.8844986,
+      35.1720523
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "名古屋鄉土限定",
+    "district": "名駅",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "味噌豬排（法式作法，使用熟成豬）",
+    "price_range": "午餐約1,500-2,500円／晚餐約2,400-2,800円（未稅）",
+    "booking_required": true,
+    "image": "https://www.katuretumatumura.jp/assets/img/menu-img1-pc.jpg",
+    "official_url": "https://www.katuretumatumura.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.884906,
+          35.170382
+        ],
+        "distance": "約190m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.885945,
+          35.170553
+        ],
+        "distance": "約210m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.882084,
+          35.171698
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.88211,
+          35.170356
+        ],
+        "distance": "約290m"
+      },
+      {
+        "name": "大東海ビル 地下1階トイレ",
+        "position": [
+          136.887889,
+          35.172464
+        ],
+        "distance": "約310m"
+      }
+    ]
+  },
+  {
+    "name": "MEIHOKU Burger",
+    "title": "MEIHOKU Burger",
+    "position": [
+      136.896667,
+      35.1656
+    ],
+    "type": "food",
+    "category": "美食名店",
+    "district": "榮",
+    "station": "伏見站（地下鐵鶴舞線・東山線）",
+    "lines": [
+      "地下鐵鶴舞線",
+      "地下鐵東山線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "牛肉100%手作漢堡",
+    "booking_required": false,
+    "image": "https://cdn.goope.jp/46056/230115213142heq3_l.jpg",
+    "official_url": "https://meihokuburger.com/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "仲ノ町公園 公衆トイレ",
+        "position": [
+          136.89548,
+          35.16418
+        ],
+        "distance": "約190m"
+      },
+      {
+        "name": "白川公園 公衆トイレ",
+        "position": [
+          136.898949,
+          35.164314
+        ],
+        "distance": "約250m"
+      },
+      {
+        "name": "伏見駅 公衆トイレ",
+        "position": [
+          136.897911,
+          35.169158
+        ],
+        "distance": "約410m"
+      },
+      {
+        "name": "白川公園北川公衆トイレ",
+        "position": [
+          136.901235,
+          35.165138
+        ],
+        "distance": "約420m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.897339,
+          35.161873
+        ],
+        "distance": "約420m"
+      }
+    ]
+  },
+  {
+    "name": "SOLO PIZZA 名古屋駅店",
+    "title": "SOLO PIZZA Napoletana 名古屋駅店",
+    "position": [
+      136.884891,
+      35.172394
+    ],
+    "type": "food",
+    "category": "美食名店",
+    "district": "名駅",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "dinner",
+    "cuisine": "那不勒斯披薩",
+    "booking_required": false,
+    "image": "https://solopizza.jp/img/top_copy.png",
+    "official_url": "https://solopizza.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.884906,
+          35.170382
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.885945,
+          35.170553
+        ],
+        "distance": "約230m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.882084,
+          35.171698
+        ],
+        "distance": "約270m"
+      },
+      {
+        "name": "大東海ビル 地下1階トイレ",
+        "position": [
+          136.887889,
+          35.172464
+        ],
+        "distance": "約270m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.88211,
+          35.170356
+        ],
+        "distance": "約340m"
+      }
+    ]
+  },
+  {
+    "name": "THE CORNER",
+    "title": "THE CORNER Hamburger & Saloon",
+    "position": [
+      136.888412,
+      35.175735
+    ],
+    "type": "food",
+    "category": "美食名店",
+    "district": "円頓寺",
+    "station": "國際中心站（地下鐵櫻通線）",
+    "lines": [
+      "地下鐵櫻通線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "手作漢堡",
+    "booking_required": false,
+    "image": "https://life-designs.jp/wp/wp-content/uploads/2022/05/image8-2.jpg",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "大東海ビル 地下1階トイレ",
+        "position": [
+          136.887889,
+          35.172464
+        ],
+        "distance": "約370m"
+      },
+      {
+        "name": "新道中央公園 公衆トイレ",
+        "position": [
+          136.88744,
+          35.179403
+        ],
+        "distance": "約420m"
+      }
+    ]
+  },
+  {
+    "name": "Tsubame 名駅店",
+    "title": "Tsubame Bread & Milk 名駅店",
+    "position": [
+      136.886916,
+      35.168589
+    ],
+    "type": "food",
+    "interest": 3,
+    "category": "點心輕食",
+    "district": "名駅",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "breakfast",
+    "cuisine": "麵包／牛奶吐司專門店",
+    "price_range": "約500-1,500円/套餐",
+    "booking_required": false,
+    "image": "https://tsubamepan.jp/static/img/meieki_img01.jpg",
+    "official_url": "https://tsubamepan.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.885945,
+          35.170553
+        ],
+        "distance": "約240m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.884906,
+          35.170382
+        ],
+        "distance": "約270m"
+      },
+      {
+        "name": "女子トイレ",
+        "position": [
+          136.883428,
+          35.169187
+        ],
+        "distance": "約320m"
+      },
+      {
+        "name": "男子トイレ",
+        "position": [
+          136.883391,
+          35.169188
+        ],
+        "distance": "約330m"
+      },
+      {
+        "name": "うまいもん通り広小路口 多機能トイレ",
+        "position": [
+          136.883368,
+          35.169209
+        ],
+        "distance": "約330m"
+      }
+    ]
+  },
+  {
+    "name": "Tsubame 尼ヶ坂店",
+    "title": "Tsubame Bread & Milk 尼ヶ坂本店",
+    "position": [
+      136.9176285,
+      35.1872836
+    ],
+    "type": "food",
+    "interest": 3,
+    "category": "點心輕食",
+    "district": "北區",
+    "station": "尼ヶ坂站（名鐵瀬戸線）",
+    "lines": [
+      "名鐵瀬戸線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "breakfast",
+    "cuisine": "麵包／牛奶吐司專門店",
+    "booking_required": false,
+    "image": "https://tsubamepan.jp/static/img/amagasaka_img01.jpg",
+    "official_url": "https://tsubamepan.jp/shop/amagasaka.html",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "尼ヶ坂公園公衆トイレ",
+        "position": [
+          136.91906,
+          35.187621
+        ],
+        "distance": "約140m"
+      },
+      {
+        "name": "大杉公園 公衆トイレ",
+        "position": [
+          136.917149,
+          35.18943
+        ],
+        "distance": "約240m"
+      },
+      {
+        "name": "清水駅公衆トイレ",
+        "position": [
+          136.913602,
+          35.187078
+        ],
+        "distance": "約370m"
+      },
+      {
+        "name": "西杉公園公衆トイレ",
+        "position": [
+          136.914192,
+          35.189705
+        ],
+        "distance": "約410m"
+      }
+    ]
+  },
+  {
+    "name": "Y.MARKET",
+    "title": "Y.MARKET BREWING KITCHEN",
+    "position": [
+      136.889287,
+      35.171292
+    ],
+    "type": "food",
+    "interest": 3,
+    "category": "美食名店",
+    "district": "名古屋站前",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "dinner",
+    "cuisine": "手工精釀啤酒／創作名古屋料理",
+    "image": "https://craftbeer.nagoya/wp-content/themes/y_market/img/taproom_tb1.png",
+    "official_url": "https://craftbeer.nagoya/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "大東海ビル 地下1階トイレ",
+        "position": [
+          136.887889,
+          35.172464
+        ],
+        "distance": "約180m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.885945,
+          35.170553
+        ],
+        "distance": "約310m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.884906,
+          35.170382
+        ],
+        "distance": "約410m"
+      }
+    ]
+  },
+  {
+    "name": "ひつまぶし う家 名駅店",
+    "title": "ひつまぶし う家 名駅店",
+    "position": [
+      136.886053,
+      35.169901
+    ],
+    "type": "food",
+    "category": "名古屋鄉土限定",
+    "district": "名駅",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "dinner",
+    "cuisine": "鰻魚飯（ひつまぶし）",
+    "price_range": "得系列3,190円／う家系列3,960円／特上5,900円",
+    "booking_required": false,
+    "image": "https://www.hitsumabushiuya.com/menu/meieki/img/menu1-2.jpg",
+    "official_url": "https://www.hitsumabushiuya.com/shop.php",
+    "days": []
+  },
+  {
+    "name": "備長 大名古屋ビル店",
+    "title": "ひつまぶし 名古屋備長 大名古屋ビルヂング店",
+    "position": [
+      136.88443,
+      35.171711
+    ],
+    "type": "food",
+    "category": "名古屋鄉土限定",
+    "district": "名駅",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "鰻魚飯三吃（ひつまぶし）",
+    "booking_required": true,
+    "image": "https://imgfp.hotp.jp/IMGH/34/60/P021753460/P021753460_480.jpg",
+    "official_url": "https://hitsumabushi.co.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.884906,
+          35.170382
+        ],
+        "distance": "約150m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.885945,
+          35.170553
+        ],
+        "distance": "約190m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.882084,
+          35.171698
+        ],
+        "distance": "約210m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.88211,
+          35.170356
+        ],
+        "distance": "約260m"
+      },
+      {
+        "name": "うまいもん通り広小路口 多機能トイレ",
+        "position": [
+          136.883368,
+          35.169209
+        ],
+        "distance": "約290m"
+      }
+    ]
+  },
+  {
+    "name": "ひつまぶし花岡",
+    "title": "ひつまぶし花岡",
+    "position": [
+      136.905197,
+      35.167271
+    ],
+    "type": "food",
+    "category": "名古屋鄉土限定",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "鰻魚飯（ひつまぶし）、梅茶漬け",
+    "image": "https://image.ekiten.jp/contribution/old/273/3080900/2730291_20170920234350.jpg",
+    "official_url": "https://hitsuabushi-hanaoka.shopinfo.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "バリアフリートイレ",
+        "position": [
+          136.905469,
+          35.165051
+        ],
+        "distance": "約250m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.908596,
+          35.168135
+        ],
+        "distance": "約320m"
+      },
+      {
+        "name": "広小路本町(市バス) 5番",
+        "position": [
+          136.901995,
+          35.168906
+        ],
+        "distance": "約340m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908276,
+          35.169612
+        ],
+        "distance": "約380m"
+      },
+      {
+        "name": "白川公園北川公衆トイレ",
+        "position": [
+          136.901235,
+          35.165138
+        ],
+        "distance": "約430m"
+      }
+    ]
+  },
+  {
+    "name": "まるや本店 名駅店",
+    "title": "まるや本店 名駅3丁目店",
+    "position": [
+      136.887085,
+      35.173302
+    ],
+    "type": "food",
+    "category": "名古屋鄉土限定",
+    "district": "名駅",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "鰻魚飯三吃（ひつまぶし）",
+    "booking_required": false,
+    "image": "https://www.maruya-honten.com/img/hitumabushi.jpg",
+    "official_url": "https://www.maruya-honten.com/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "大東海ビル 地下1階トイレ",
+        "position": [
+          136.887889,
+          35.172464
+        ],
+        "distance": "約120m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.885945,
+          35.170553
+        ],
+        "distance": "約320m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.884906,
+          35.170382
+        ],
+        "distance": "約380m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.882084,
+          35.171698
+        ],
+        "distance": "約490m"
+      }
+    ]
+  },
+  {
+    "name": "かこ 花車本店",
+    "title": "コーヒーハウス かこ 花車本店",
+    "position": [
+      136.890244,
+      35.170696
+    ],
+    "type": "food",
+    "category": "點心輕食",
+    "district": "名駅",
+    "station": "國際中心站（地下鐵櫻通線）",
+    "lines": [
+      "地下鐵櫻通線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "breakfast",
+    "cuisine": "老字號自家焙煎喫茶・名古屋早餐（モーニング）",
+    "booking_required": false,
+    "image": "https://static.wixstatic.com/media/8d3f7b94bf844daab9607b05a8282051.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_avif,quality_auto/8d3f7b94bf844daab9607b05a8282051.jpg",
+    "official_url": "https://kakomaster1972.wixsite.com/kako1972",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "大東海ビル 地下1階トイレ",
+        "position": [
+          136.887889,
+          35.172464
+        ],
+        "distance": "約290m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.885945,
+          35.170553
+        ],
+        "distance": "約390m"
+      },
+      {
+        "name": "下園公園公衆トイレ",
+        "position": [
+          136.895199,
+          35.169902
+        ],
+        "distance": "約460m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.884906,
+          35.170382
+        ],
+        "distance": "約490m"
+      }
+    ]
+  },
+  {
+    "name": "スギモト本店",
+    "title": "スギモト 本店 Sugimoto",
+    "position": [
+      136.902344,
+      35.168118
+    ],
+    "type": "food",
+    "category": "美食名店",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "dinner",
+    "cuisine": "牛かつ・しゃぶしゃぶ・和牛",
+    "booking_required": true,
+    "image": "https://www.oniku-sugimoto.com/adm_tools/cms/wp-content/uploads/2021/11/%E3%82%B9%E3%82%AE%E3%83%A2%E3%83%88%E6%9C%AC%E5%BA%97-scaled.jpg",
+    "official_url": "https://www.oniku-sugimoto.com/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "広小路本町(市バス) 5番",
+        "position": [
+          136.901995,
+          35.168906
+        ],
+        "distance": "約90m"
+      },
+      {
+        "name": "白川公園北川公衆トイレ",
+        "position": [
+          136.901235,
+          35.165138
+        ],
+        "distance": "約350m"
+      },
+      {
+        "name": "伏見駅 公衆トイレ",
+        "position": [
+          136.897911,
+          35.169158
+        ],
+        "distance": "約420m"
+      },
+      {
+        "name": "バリアフリートイレ",
+        "position": [
+          136.905469,
+          35.165051
+        ],
+        "distance": "約440m"
+      },
+      {
+        "name": "地下鉄伏見駅",
+        "position": [
+          136.897778,
+          35.169681
+        ],
+        "distance": "約450m"
+      }
+    ]
+  },
+  {
+    "name": "あさくま 桜山店",
+    "title": "ステーキのあさくま 桜山店",
+    "position": [
+      136.933945,
+      35.141136
+    ],
+    "type": "food",
+    "category": "美食名店",
+    "district": "昭和區",
+    "station": "桜山站（地下鐵櫻通線）",
+    "lines": [
+      "地下鐵櫻通線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "dinner",
+    "cuisine": "牛排（連鎖家庭式牛排館）",
+    "booking_required": false,
+    "image": "https://imgfp.hotp.jp/IMGH/32/14/P036833214/P036833214_480.jpg",
+    "official_url": "https://www.asakuma.co.jp/",
+    "days": []
+  },
+  {
+    "name": "To Smile",
+    "title": "パン屋 To Smile",
+    "position": [
+      136.898529,
+      35.16618
+    ],
+    "type": "food",
+    "category": "點心輕食",
+    "district": "榮",
+    "station": "伏見站（地下鐵鶴舞線・東山線）",
+    "lines": [
+      "地下鐵鶴舞線",
+      "地下鐵東山線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "breakfast",
+    "cuisine": "無添加手作麵包",
+    "booking_required": false,
+    "image": "https://life-designs.jp/wp/wp-content/uploads/2023/03/image3-22.jpg",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "白川公園 公衆トイレ",
+        "position": [
+          136.898949,
+          35.164314
+        ],
+        "distance": "約210m"
+      },
+      {
+        "name": "白川公園北川公衆トイレ",
+        "position": [
+          136.901235,
+          35.165138
+        ],
+        "distance": "約270m"
+      },
+      {
+        "name": "伏見駅 公衆トイレ",
+        "position": [
+          136.897911,
+          35.169158
+        ],
+        "distance": "約340m"
+      },
+      {
+        "name": "仲ノ町公園 公衆トイレ",
+        "position": [
+          136.89548,
+          35.16418
+        ],
+        "distance": "約360m"
+      },
+      {
+        "name": "白川公園 公衆トイレ",
+        "position": [
+          136.900646,
+          35.163189
+        ],
+        "distance": "約380m"
+      }
+    ]
+  },
+  {
+    "name": "モーニング喫茶リヨン",
+    "title": "モーニング喫茶リヨン",
+    "position": [
+      136.886292,
+      35.16769
+    ],
+    "type": "food",
+    "category": "名古屋鄉土限定",
+    "district": "名駅",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "breakfast",
+    "cuisine": "名古屋喫茶モーニング文化、小倉あんプレスサンド（紅豆熱壓吐司）",
+    "booking_required": false,
+    "image": "https://jouhou.nagoya/wp-content/uploads/2016/07/riyon2017-7.jpg",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "女子トイレ",
+        "position": [
+          136.883428,
+          35.169187
+        ],
+        "distance": "約310m"
+      },
+      {
+        "name": "男子トイレ",
+        "position": [
+          136.883391,
+          35.169188
+        ],
+        "distance": "約310m"
+      },
+      {
+        "name": "うまいもん通り広小路口 多機能トイレ",
+        "position": [
+          136.883368,
+          35.169209
+        ],
+        "distance": "約310m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.885945,
+          35.170553
+        ],
+        "distance": "約320m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.884906,
+          35.170382
+        ],
+        "distance": "約320m"
+      }
+    ]
+  },
+  {
+    "name": "世界的山將 セントレア店（世界の山ちゃん）",
+    "title": "世界的山將 セントレア店（世界の山ちゃん）",
+    "position": [
+      136.814773,
+      34.858852
+    ],
+    "type": "food",
+    "category": "名古屋鄉土限定",
+    "district": "中部國際機場（セントレア）",
+    "station": "中部國際機場站（名鐵空港線）",
+    "lines": [
+      "名鐵空港線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "dinner",
+    "cuisine": "名古屋名物手羽先（炸雞翅）",
+    "booking_required": false,
+    "image": "https://www.yamachan.co.jp/shop/aichi/images/centrair_pics01.jpg",
+    "official_url": "https://www.yamachan.co.jp/shop/aichi/sentorea.php",
+    "days": [
+      "Day7"
+    ]
+  },
+  {
+    "name": "丸明 中日ビル店",
+    "title": "丸明 中日ビル店",
+    "position": [
+      136.909457,
+      35.168945
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "美食名店",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "飛驒牛燒肉",
+    "price_range": "中午飛驒牛定食約3,000円起，晚餐較貴",
+    "booking_required": true,
+    "image": "https://chunichi-building.jp/wp/wp-content/uploads/2024/02/maruaki_BF1_1.jpg",
+    "official_url": "https://www.hidagyu-maruaki.co.jp/store/chuunichi",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "トイレ",
+        "position": [
+          136.908596,
+          35.168135
+        ],
+        "distance": "約120m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908276,
+          35.169612
+        ],
+        "distance": "約130m"
+      },
+      {
+        "name": "栄町駅 バリアフリートイレ",
+        "position": [
+          136.908835,
+          35.170823
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "原内科クリニック",
+        "position": [
+          136.911934,
+          35.167725
+        ],
+        "distance": "約260m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.90955,
+          35.171728
+        ],
+        "distance": "約310m"
+      }
+    ]
+  },
+  {
+    "name": "俺の金の焼き芋",
+    "title": "俺の金の焼き芋（足湯カフェ）",
+    "position": [
+      136.83905,
+      34.889
+    ],
+    "type": "food",
+    "category": "點心輕食",
+    "district": "常滑",
+    "station": "常滑站（名鐵）",
+    "lines": [
+      "名鐵常滑線"
+    ],
+    "status": "researching",
+    "priority": "optional",
+    "meal_slot": "snack",
+    "cuisine": "常滑燒土管窯烤地瓜、義式冰淇淋、足湯服務",
+    "booking_required": false,
+    "image": "https://www.tokoname-kankou.net/upload/spots/large/203598653462ea0631c210c.jpg",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.838929,
+          34.88785
+        ],
+        "distance": "約130m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.839643,
+          34.886477
+        ],
+        "distance": "約290m"
+      },
+      {
+        "name": "常滑駅(改札内)バリアフリートイレ",
+        "position": [
+          136.835633,
+          34.890083
+        ],
+        "distance": "約330m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.835532,
+          34.890458
+        ],
+        "distance": "約360m"
+      }
+    ]
+  },
+  {
+    "name": "箱屋 名古屋駅前店",
+    "title": "個室居酒屋 箱屋 名古屋駅前店",
+    "position": [
+      136.883255,
+      35.173862
+    ],
+    "type": "food",
+    "category": "美食名店",
+    "district": "名駅",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "dinner",
+    "cuisine": "完全個室居酒屋",
+    "booking_required": true,
+    "image": "https://imgfp.hotp.jp/IMGH/41/48/P036064148/P036064148_238.jpg",
+    "official_url": "https://hako-ya.com/meieki/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.882377,
+          35.176046
+        ],
+        "distance": "約260m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.882084,
+          35.171698
+        ],
+        "distance": "約260m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.88211,
+          35.170356
+        ],
+        "distance": "約400m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.884906,
+          35.170382
+        ],
+        "distance": "約420m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.885945,
+          35.170553
+        ],
+        "distance": "約440m"
+      }
+    ]
+  },
+  {
+    "name": "印度料理 Durga 2號店（ドルーガ 2号店）",
+    "title": "印度料理 Durga 2號店（ドルーガ 2号店）",
+    "position": [
+      136.881461,
+      35.092829
+    ],
+    "type": "food",
+    "category": "美食名店",
+    "district": "港區",
+    "station": "名古屋港站（地下鐵名港線）",
+    "lines": [
+      "地下鐵名港線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "印度料理",
+    "price_range": "午餐約1,200円／晚餐約1,500-2,000円",
+    "booking_required": false,
+    "image": "https://imgfp.hotp.jp/IMGH/71/79/P017537179/P017537179_480.jpg",
+    "days": [
+      "Day4"
+    ]
+  },
+  {
+    "name": "コーチンラーメン はなれ",
+    "title": "名古屋コーチンラーメン はなれ",
+    "position": [
+      136.904861,
+      35.166409
+    ],
+    "type": "food",
+    "category": "名古屋鄉土限定",
+    "district": "榮",
+    "station": "矢場町站（地下鐵名城線）",
+    "lines": [
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "名古屋交趾雞白湯拉麵",
+    "booking_required": false,
+    "image": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/33689611.jpg",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "バリアフリートイレ",
+        "position": [
+          136.905469,
+          35.165051
+        ],
+        "distance": "約160m"
+      },
+      {
+        "name": "白川公園北川公衆トイレ",
+        "position": [
+          136.901235,
+          35.165138
+        ],
+        "distance": "約360m"
+      },
+      {
+        "name": "広小路本町(市バス) 5番",
+        "position": [
+          136.901995,
+          35.168906
+        ],
+        "distance": "約380m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.908596,
+          35.168135
+        ],
+        "distance": "約390m"
+      },
+      {
+        "name": "久屋広場西トイレ",
+        "position": [
+          136.908728,
+          35.164578
+        ],
+        "distance": "約410m"
+      }
+    ]
+  },
+  {
+    "name": "一鳳 本店",
+    "title": "名古屋交趾雞會席 一鳳 本店",
+    "position": [
+      136.902908,
+      35.141418
+    ],
+    "type": "food",
+    "category": "名古屋鄉土限定",
+    "district": "金山",
+    "station": "金山站（JR・名鐵・地下鐵名城線）",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "dinner",
+    "cuisine": "名古屋交趾雞會席・串燒",
+    "booking_required": true,
+    "image": "https://www.ichiou.com/form/img/banner.jpg",
+    "official_url": "https://ichiou.com/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "金山駅南口 公衆トイレ",
+        "position": [
+          136.901064,
+          35.142483
+        ],
+        "distance": "約210m"
+      },
+      {
+        "name": "金山駅 ﾊﾞﾘｱﾌﾘｰトイレ",
+        "position": [
+          136.901428,
+          35.142972
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "LOOP金山２階トイレ(オストメイト対応)",
+        "position": [
+          136.901605,
+          35.143332
+        ],
+        "distance": "約240m"
+      },
+      {
+        "name": "地下鉄金山駅 通路トイレ",
+        "position": [
+          136.902386,
+          35.143752
+        ],
+        "distance": "約260m"
+      },
+      {
+        "name": "アスナル金山駐車場トイレ",
+        "position": [
+          136.900967,
+          35.144345
+        ],
+        "distance": "約370m"
+      }
+    ]
+  },
+  {
+    "name": "キミハン",
+    "title": "君のハンバーグを食べたい（キミハン）",
+    "position": [
+      136.880838,
+      35.180425
+    ],
+    "type": "food",
+    "interest": 4,
+    "category": "美食名店",
+    "district": "則武新町",
+    "station": "龜島站（地下鐵東山線）",
+    "lines": [
+      "地下鐵東山線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "dinner",
+    "cuisine": "日式漢堡排",
+    "price_range": "套餐約2,000円以下",
+    "booking_required": false,
+    "image": "https://i0.wp.com/jouhou.nagoya/wp-content/uploads/2021/10/kimino-hamburg01.jpg",
+    "official_url": "https://nagoya-noritake-garden.aeonmall.com/shop/detail/154",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "トイレ",
+        "position": [
+          136.879955,
+          35.18243
+        ],
+        "distance": "約240m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.883353,
+          35.182392
+        ],
+        "distance": "約320m"
+      },
+      {
+        "name": "江西公園公衆トイレ",
+        "position": [
+          136.884629,
+          35.179761
+        ],
+        "distance": "約350m"
+      },
+      {
+        "name": "南押切中央公園公衆トイレ",
+        "position": [
+          136.881081,
+          35.184693
+        ],
+        "distance": "約480m"
+      }
+    ]
+  },
+  {
+    "name": "三河屋",
+    "title": "味噌豬排 三河屋",
+    "position": [
+      136.920441,
+      35.111839
+    ],
+    "type": "food",
+    "category": "名古屋鄉土限定",
+    "district": "瑞穗區",
+    "station": "堀田站（地下鐵名城線）",
+    "lines": [
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "味噌豬排・寬烏龍麵",
+    "booking_required": false,
+    "image": "https://www.mikawaya-misokatsu.com/wp-content/uploads/menu_img003.jpg",
+    "official_url": "https://www.mikawaya-misokatsu.com/",
+    "days": []
+  },
+  {
+    "name": "葉栗屋",
+    "title": "味噌豬排 葉栗屋",
+    "position": [
+      136.892273,
+      35.143253
+    ],
+    "type": "food",
+    "category": "名古屋鄉土限定",
+    "district": "尾頭橋",
+    "station": "尾頭橋站（JR東海道線）",
+    "lines": [
+      "JR東海道線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "味噌豬排（味噌カツライス）",
+    "booking_required": false,
+    "image": "https://imgfp.hotp.jp/IMGH/57/76/P023385776/P023385776_480.jpg",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "尾頭橋公園 公衆トイレ",
+        "position": [
+          136.889959,
+          35.145154
+        ],
+        "distance": "約300m"
+      },
+      {
+        "name": "西古渡公園 公衆トイレ",
+        "position": [
+          136.890678,
+          35.146605
+        ],
+        "distance": "約400m"
+      },
+      {
+        "name": "小山公園公衆トイレ",
+        "position": [
+          136.888041,
+          35.142004
+        ],
+        "distance": "約410m"
+      },
+      {
+        "name": "バリアフリートイレ",
+        "position": [
+          136.897009,
+          35.144723
+        ],
+        "distance": "約460m"
+      }
+    ]
+  },
+  {
+    "name": "栗りん 大須店",
+    "title": "和栗蒙布朗専門店 栗りん 大須店",
+    "position": [
+      136.901642,
+      35.158714
+    ],
+    "type": "food",
+    "category": "點心輕食",
+    "district": "大須",
+    "station": "大須觀音站（地下鐵名城線）",
+    "lines": [
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "snack",
+    "cuisine": "現絞和栗蒙布朗",
+    "booking_required": false,
+    "image": "https://gensg.jp/cms/wp-content/themes/gens/images/shop/kuririn-oosu/pc02.jpg",
+    "official_url": "https://gensg.jp/shop/kuririn-oosu/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "那古野古墳前 公衆トイレ",
+        "position": [
+          136.901104,
+          35.159637
+        ],
+        "distance": "約110m"
+      },
+      {
+        "name": "大須観音 公衆トイレ",
+        "position": [
+          136.899226,
+          35.159116
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "裏門前公園公衆トイレ",
+        "position": [
+          136.903833,
+          35.161342
+        ],
+        "distance": "約350m"
+      },
+      {
+        "name": "第1アメ横ビル 2Fトイレ",
+        "position": [
+          136.905377,
+          35.15975
+        ],
+        "distance": "約360m"
+      },
+      {
+        "name": "公衆トイレ（若宮大通公園 白川前駐車場）",
+        "position": [
+          136.900033,
+          35.161908
+        ],
+        "distance": "約380m"
+      }
+    ]
+  },
+  {
+    "name": "うどん錦",
+    "title": "咖哩烏龍麵 うどん錦",
+    "position": [
+      136.905411,
+      35.170605
+    ],
+    "type": "food",
+    "category": "美食名店",
+    "district": "錦",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "咖哩烏龍麵（カレーうどん）",
+    "booking_required": false,
+    "image": "https://c-mr.gnst.jp/cont/menu_image/b9/cd/670273_l.jpeg",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "ツルシゲ通り1 公衆トイレ",
+        "position": [
+          136.905325,
+          35.172394
+        ],
+        "distance": "約200m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908276,
+          35.169612
+        ],
+        "distance": "約280m"
+      },
+      {
+        "name": "栄町駅 バリアフリートイレ",
+        "position": [
+          136.908835,
+          35.170823
+        ],
+        "distance": "約310m"
+      },
+      {
+        "name": "中部電力 MIRAI TOWER下 公衆トイレ",
+        "position": [
+          136.908338,
+          35.172345
+        ],
+        "distance": "約330m"
+      },
+      {
+        "name": "広小路本町(市バス) 5番",
+        "position": [
+          136.901995,
+          35.168906
+        ],
+        "distance": "約360m"
+      }
+    ]
+  },
+  {
+    "name": "大須鮨",
+    "title": "大須鮨",
+    "position": [
+      136.9005861,
+      35.1605077
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "美食名店",
+    "district": "大須",
+    "station": "大須觀音站（地下鐵名城線）",
+    "lines": [
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "dinner",
+    "cuisine": "江戶前壽司",
+    "price_range": "約5,500円/人",
+    "booking_required": true,
+    "image": "https://www.kinsyachi.com/datas/cache/images/2025/04/20/1000x666_ea1e9d427fb5664c32c517a73e421e58_ea568df68beeb214c742deaab36edac83877644e.jpg",
+    "days": [
+      "Day1",
+      "Day6"
+    ],
+    "restrooms": [
+      {
+        "name": "那古野古墳前 公衆トイレ",
+        "position": [
+          136.901104,
+          35.159637
+        ],
+        "distance": "約110m"
+      },
+      {
+        "name": "公衆トイレ（若宮大通公園 白川前駐車場）",
+        "position": [
+          136.900033,
+          35.161908
+        ],
+        "distance": "約160m"
+      },
+      {
+        "name": "大須観音 公衆トイレ",
+        "position": [
+          136.899226,
+          35.159116
+        ],
+        "distance": "約200m"
+      },
+      {
+        "name": "白川公園 公衆トイレ",
+        "position": [
+          136.900646,
+          35.163189
+        ],
+        "distance": "約300m"
+      },
+      {
+        "name": "裏門前公園公衆トイレ",
+        "position": [
+          136.903833,
+          35.161342
+        ],
+        "distance": "約310m"
+      }
+    ]
+  },
+  {
+    "name": "客美多 セントレア店",
+    "title": "客美多コメダ珈琲店 セントレア店",
+    "position": [
+      136.814773,
+      34.858852
+    ],
+    "type": "food",
+    "interest": 3,
+    "category": "點心輕食",
+    "district": "中部國際機場（セントレア）",
+    "station": "中部國際機場站（名鐵空港線）",
+    "lines": [
+      "名鐵空港線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "breakfast",
+    "cuisine": "喫茶店（發祥於名古屋，招牌為點飲料附贈早餐的「モーニング」文化）",
+    "booking_required": false,
+    "image": "https://tblg.k-img.com/restaurant/images/Rvw/345299/640x640_rect_3f39b7e665637f60e62da0e262eb6bd3.jpg",
+    "official_url": "https://www.komeda.co.jp/",
+    "days": []
+  },
+  {
+    "name": "小雞布丁蛋糕",
+    "title": "小雞布丁蛋糕（ ぴよりん ）",
+    "position": [
+      136.8829448,
+      35.1702467
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "點心輕食",
+    "district": "名駅",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "snack",
+    "cuisine": "甜點（名古屋交趾雞雞蛋布丁慕斯蛋糕）",
+    "booking_required": true,
+    "image": "https://bobbytravel.tw/wp-content/uploads/2024/08/20240825220956_0_9157e8.jpg",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.88211,
+          35.170356
+        ],
+        "distance": "約80m"
+      },
+      {
+        "name": "うまいもん通り広小路口 多機能トイレ",
+        "position": [
+          136.883368,
+          35.169209
+        ],
+        "distance": "約120m"
+      },
+      {
+        "name": "男子トイレ",
+        "position": [
+          136.883391,
+          35.169188
+        ],
+        "distance": "約120m"
+      },
+      {
+        "name": "女子トイレ",
+        "position": [
+          136.883428,
+          35.169187
+        ],
+        "distance": "約130m"
+      },
+      {
+        "name": "新幹線名古屋駅改札内トイレ",
+        "position": [
+          136.881538,
+          35.169733
+        ],
+        "distance": "約140m"
+      }
+    ]
+  },
+  {
+    "name": "屋台ラーメン ヤムヤム",
+    "title": "屋台ラーメン ヤムヤム",
+    "position": [
+      136.899569,
+      35.158704
+    ],
+    "type": "food",
+    "interest": 3,
+    "category": "美食名店",
+    "district": "大須",
+    "station": "大須觀音站（地下鐵名城線）",
+    "lines": [
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "dinner",
+    "cuisine": "昭和復古屋台拉麵",
+    "price_range": "拉麵500円／叉燒麵800円",
+    "booking_required": false,
+    "image": "https://yomu.tv-aichi.co.jp/files/images/9ea7c6736c4f3c5a33cd2980970446544e9b9884.png",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "大須観音 公衆トイレ",
+        "position": [
+          136.899226,
+          35.159116
+        ],
+        "distance": "約60m"
+      },
+      {
+        "name": "那古野古墳前 公衆トイレ",
+        "position": [
+          136.901104,
+          35.159637
+        ],
+        "distance": "約170m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.899768,
+          35.1556
+        ],
+        "distance": "約350m"
+      },
+      {
+        "name": "公衆トイレ（若宮大通公園 白川前駐車場）",
+        "position": [
+          136.900033,
+          35.161908
+        ],
+        "distance": "約360m"
+      },
+      {
+        "name": "西大須公園公衆トイレ",
+        "position": [
+          136.895246,
+          35.15914
+        ],
+        "distance": "約400m"
+      }
+    ]
+  },
+  {
+    "name": "山 名古屋駅店（ワンランク上の世界の山ちゃん）",
+    "title": "山 名古屋駅店（ワンランク上の世界の山ちゃん）",
+    "position": [
+      136.880919,
+      35.169124
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "名古屋鄉土限定",
+    "district": "名駅",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "dinner",
+    "cuisine": "名古屋名物手羽先（炸雞翅）",
+    "booking_required": false,
+    "image": "https://www.yamachan.co.jp/yama_nagoyaeki/images/0820-8_1000pix.jpg",
+    "official_url": "https://www.yamachan.co.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "新幹線名古屋駅改札内トイレ",
+        "position": [
+          136.881538,
+          35.169733
+        ],
+        "distance": "約90m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.88211,
+          35.170356
+        ],
+        "distance": "約170m"
+      },
+      {
+        "name": "うまいもん通り広小路口 多機能トイレ",
+        "position": [
+          136.883368,
+          35.169209
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "男子トイレ",
+        "position": [
+          136.883391,
+          35.169188
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "女子トイレ",
+        "position": [
+          136.883428,
+          35.169187
+        ],
+        "distance": "約230m"
+      }
+    ]
+  },
+  {
+    "name": "山本屋本店 栄本町通店",
+    "title": "山本屋本店 栄本町通店",
+    "position": [
+      136.9021744,
+      35.1663779
+    ],
+    "type": "food",
+    "interest": 4,
+    "category": "名古屋鄉土限定",
+    "district": "榮",
+    "station": "榮站",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "味噌鍋燒烏龍（味噌煮込みうどん）",
+    "price_range": "一碗約台幣兩三百元（日幣約2,000円上下）",
+    "booking_required": false,
+    "image": "https://yamamotoyahonten.co.jp/wordpress/wp-content/themes/yamamotoya/img/home/mainimg_home01.jpg",
+    "official_url": "https://yamamotoyahonten.co.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "白川公園北川公衆トイレ",
+        "position": [
+          136.901235,
+          35.165138
+        ],
+        "distance": "約160m"
+      },
+      {
+        "name": "広小路本町(市バス) 5番",
+        "position": [
+          136.901995,
+          35.168906
+        ],
+        "distance": "約280m"
+      },
+      {
+        "name": "バリアフリートイレ",
+        "position": [
+          136.905469,
+          35.165051
+        ],
+        "distance": "約330m"
+      },
+      {
+        "name": "白川公園 公衆トイレ",
+        "position": [
+          136.898949,
+          35.164314
+        ],
+        "distance": "約370m"
+      },
+      {
+        "name": "白川公園 公衆トイレ",
+        "position": [
+          136.900646,
+          35.163189
+        ],
+        "distance": "約380m"
+      }
+    ]
+  },
+  {
+    "name": "山本屋總本家 本家",
+    "title": "山本屋總本家 本家",
+    "position": [
+      136.904538,
+      35.165952
+    ],
+    "type": "food",
+    "interest": 4,
+    "category": "名古屋鄉土限定",
+    "district": "榮",
+    "station": "矢場町站（地下鐵名城線）",
+    "lines": [
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "味噌煮込みうどん（味噌烏龍麵）",
+    "booking_required": false,
+    "image": "https://yamamotoya.co.jp/wp/wp-content/themes/souhonke/img/top/img_mv1.png",
+    "official_url": "https://yamamotoya.co.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "バリアフリートイレ",
+        "position": [
+          136.905469,
+          35.165051
+        ],
+        "distance": "約130m"
+      },
+      {
+        "name": "白川公園北川公衆トイレ",
+        "position": [
+          136.901235,
+          35.165138
+        ],
+        "distance": "約310m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.903666,
+          35.162539
+        ],
+        "distance": "約390m"
+      },
+      {
+        "name": "若宮大通り公園公衆トイレ",
+        "position": [
+          136.905313,
+          35.162501
+        ],
+        "distance": "約390m"
+      },
+      {
+        "name": "広小路本町(市バス) 5番",
+        "position": [
+          136.901995,
+          35.168906
+        ],
+        "distance": "約400m"
+      }
+    ]
+  },
+  {
+    "name": "山田五平餅店",
+    "title": "山田五平餅店",
+    "position": [
+      136.9395401,
+      35.3836612
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "點心輕食",
+    "district": "犬山城下町",
+    "station": "犬山站（名鐵）",
+    "lines": [
+      "名鐵犬山線",
+      "名鐵小牧線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "snack",
+    "cuisine": "五平餅（烤米餅）",
+    "price_range": "約100円/支",
+    "booking_required": false,
+    "image": "https://inuyama.gr.jp/upload/site/gourmets/large/2069937d2b0e138ef6a4cd3443d5c066.jpg",
+    "days": [
+      "Day5"
+    ],
+    "restrooms": [
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.939475,
+          35.381214
+        ],
+        "distance": "約270m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.93946,
+          35.381066
+        ],
+        "distance": "約290m"
+      },
+      {
+        "name": "針綱神社公衆トイレ",
+        "position": [
+          136.939775,
+          35.386486
+        ],
+        "distance": "約310m"
+      },
+      {
+        "name": "犬山丸の内緑地公衆トイレ",
+        "position": [
+          136.936939,
+          35.386235
+        ],
+        "distance": "約370m"
+      },
+      {
+        "name": "内田防災公園 公衆トイレ",
+        "position": [
+          136.942391,
+          35.386233
+        ],
+        "distance": "約390m"
+      }
+    ]
+  },
+  {
+    "name": "感動の肉と米 金山店",
+    "title": "感動の肉と米 金山店",
+    "position": [
+      136.902924,
+      35.144264
+    ],
+    "type": "food",
+    "category": "美食名店",
+    "district": "金山",
+    "station": "金山站（JR・名鐵・地下鐵名城線）",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "dinner",
+    "cuisine": "牛排・肉料理配白飯",
+    "booking_required": false,
+    "image": "https://www.ricetomeatyou.com/dcms_media/image/slider-01.jpg",
+    "official_url": "https://www.ricetomeatyou.com/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "地下鉄金山駅 通路トイレ",
+        "position": [
+          136.902386,
+          35.143752
+        ],
+        "distance": "約80m"
+      },
+      {
+        "name": "LOOP金山２階トイレ(オストメイト対応)",
+        "position": [
+          136.901605,
+          35.143332
+        ],
+        "distance": "約160m"
+      },
+      {
+        "name": "アスナル金山駐車場トイレ",
+        "position": [
+          136.900967,
+          35.144345
+        ],
+        "distance": "約180m"
+      },
+      {
+        "name": "金山駅 ﾊﾞﾘｱﾌﾘｰトイレ",
+        "position": [
+          136.901428,
+          35.142972
+        ],
+        "distance": "約200m"
+      },
+      {
+        "name": "金山駅南口 公衆トイレ",
+        "position": [
+          136.901064,
+          35.142483
+        ],
+        "distance": "約260m"
+      }
+    ]
+  },
+  {
+    "name": "手羽先むすめ",
+    "title": "手羽先むすめ",
+    "position": [
+      136.903824,
+      35.157997
+    ],
+    "type": "food",
+    "category": "名古屋鄉土限定",
+    "district": "大須",
+    "station": "上前津站（地下鐵鶴舞線・名城線）",
+    "lines": [
+      "地下鐵鶴舞線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "dinner",
+    "cuisine": "手羽先（炸雞翅）多種口味比較",
+    "booking_required": false,
+    "image": "https://jouhou.nagoya/wp-content/uploads/2022/08/tebasaki-musume-001.jpg",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "第1アメ横ビル 2Fトイレ",
+        "position": [
+          136.905377,
+          35.15975
+        ],
+        "distance": "約240m"
+      },
+      {
+        "name": "那古野古墳前 公衆トイレ",
+        "position": [
+          136.901104,
+          35.159637
+        ],
+        "distance": "約310m"
+      },
+      {
+        "name": "裏門前公園公衆トイレ",
+        "position": [
+          136.903833,
+          35.161342
+        ],
+        "distance": "約370m"
+      },
+      {
+        "name": "大須観音 公衆トイレ",
+        "position": [
+          136.899226,
+          35.159116
+        ],
+        "distance": "約440m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.899768,
+          35.1556
+        ],
+        "distance": "約450m"
+      }
+    ]
+  },
+  {
+    "name": "木曽川商店",
+    "title": "木曽川商店（犬山城下町烤香魚）",
+    "position": [
+      136.9395872,
+      35.385557
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "點心輕食",
+    "district": "犬山城下町",
+    "station": "犬山站（名鐵）",
+    "lines": [
+      "名鐵犬山線",
+      "名鐵小牧線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "snack",
+    "cuisine": "鮎（香魚）鹽烤",
+    "price_range": "約650-1,000円",
+    "booking_required": false,
+    "image": "https://juno.nagoya/wp-content/uploads/2021/06/IMG_5529-1.jpg",
+    "days": [
+      "Day5"
+    ],
+    "restrooms": [
+      {
+        "name": "針綱神社公衆トイレ",
+        "position": [
+          136.939775,
+          35.386486
+        ],
+        "distance": "約100m"
+      },
+      {
+        "name": "犬山丸の内緑地公衆トイレ",
+        "position": [
+          136.936939,
+          35.386235
+        ],
+        "distance": "約250m"
+      },
+      {
+        "name": "内田防災公園 公衆トイレ",
+        "position": [
+          136.942391,
+          35.386233
+        ],
+        "distance": "約270m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.939857,
+          35.387965
+        ],
+        "distance": "約270m"
+      },
+      {
+        "name": "彩雲橋公衆トイレ",
+        "position": [
+          136.941387,
+          35.389381
+        ],
+        "distance": "約460m"
+      }
+    ]
+  },
+  {
+    "name": "本町茶寮",
+    "title": "本町茶寮",
+    "position": [
+      136.939473,
+      35.383088
+    ],
+    "type": "food",
+    "interest": 4,
+    "category": "點心輕食",
+    "district": "犬山城下町",
+    "station": "犬山站（名鐵）",
+    "lines": [
+      "名鐵犬山線",
+      "名鐵小牧線"
+    ],
+    "status": "researching",
+    "priority": "optional",
+    "meal_slot": "snack",
+    "cuisine": "日式咖啡廳（抹茶甜點）",
+    "booking_required": false,
+    "image": "https://inuyama.gr.jp/upload/site/gourmets/retina/429b040a2f8ae022a5843268260497f4.jpg",
+    "days": [
+      "Day5"
+    ],
+    "restrooms": [
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.939475,
+          35.381214
+        ],
+        "distance": "約210m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.93946,
+          35.381066
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "針綱神社公衆トイレ",
+        "position": [
+          136.939775,
+          35.386486
+        ],
+        "distance": "約380m"
+      },
+      {
+        "name": "犬山丸の内緑地公衆トイレ",
+        "position": [
+          136.936939,
+          35.386235
+        ],
+        "distance": "約420m"
+      },
+      {
+        "name": "内田防災公園 公衆トイレ",
+        "position": [
+          136.942391,
+          35.386233
+        ],
+        "distance": "約440m"
+      }
+    ]
+  },
+  {
+    "name": "札幌螃蟹本家 名古屋本店",
+    "title": "札幌螃蟹本家 名古屋本店",
+    "position": [
+      136.904945,
+      35.167021
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "美食名店",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "dinner",
+    "cuisine": "螃蟹料理（帝王蟹／毛蟹／松葉蟹全餐）",
+    "booking_required": true,
+    "image": "https://www.kani-honke.co.jp/img/locations/sakae.jpg",
+    "official_url": "https://www.kani-honke.co.jp/tc/",
+    "days": [
+      "Day3"
+    ],
+    "restrooms": [
+      {
+        "name": "バリアフリートイレ",
+        "position": [
+          136.905469,
+          35.165051
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "広小路本町(市バス) 5番",
+        "position": [
+          136.901995,
+          35.168906
+        ],
+        "distance": "約340m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.908596,
+          35.168135
+        ],
+        "distance": "約350m"
+      },
+      {
+        "name": "白川公園北川公衆トイレ",
+        "position": [
+          136.901235,
+          35.165138
+        ],
+        "distance": "約400m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908276,
+          35.169612
+        ],
+        "distance": "約420m"
+      }
+    ]
+  },
+  {
+    "name": "札幌螃蟹本家 名古屋駅前店",
+    "title": "札幌螃蟹本家 名古屋駅前店",
+    "position": [
+      136.886941,
+      35.167613
+    ],
+    "type": "food",
+    "category": "美食名店",
+    "district": "名駅",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "dinner",
+    "cuisine": "螃蟹料理（帝王蟹／毛蟹／松葉蟹全餐）",
+    "price_range": "午間會席4,800-9,000円／晚餐會席7,000-25,000円",
+    "booking_required": true,
+    "image": "https://www.kani-honke.co.jp/img/locations/meieki.jpg",
+    "official_url": "https://www.kani-honke.co.jp/tc/location_meieki.html",
+    "days": []
+  },
+  {
+    "name": "柳橋 海鮮早餐",
+    "title": "柳橋中央市場 海鮮早餐食堂",
+    "position": [
+      136.88812,
+      35.170041
+    ],
+    "type": "food",
+    "interest": 4,
+    "category": "美食名店",
+    "district": "名古屋站前",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "shortlisted",
+    "priority": "nice-to-have",
+    "meal_slot": "breakfast",
+    "cuisine": "海鮮",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.885945,
+          35.170553
+        ],
+        "distance": "約210m"
+      },
+      {
+        "name": "大東海ビル 地下1階トイレ",
+        "position": [
+          136.887889,
+          35.172464
+        ],
+        "distance": "約270m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.884906,
+          35.170382
+        ],
+        "distance": "約290m"
+      },
+      {
+        "name": "女子トイレ",
+        "position": [
+          136.883428,
+          35.169187
+        ],
+        "distance": "約440m"
+      },
+      {
+        "name": "男子トイレ",
+        "position": [
+          136.883391,
+          35.169188
+        ],
+        "distance": "約440m"
+      }
+    ]
+  },
+  {
+    "name": "炭焼うな富士 名駅店",
+    "title": "炭焼うな富士 名駅店",
+    "position": [
+      136.885471,
+      35.168893
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "名古屋鄉土限定",
+    "district": "名駅",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "dinner",
+    "cuisine": "鰻魚三吃（ひつまぶし）",
+    "booking_required": true,
+    "image": "https://sumiyaki-unafuji.com/wp-content/themes/unafuji001/assets/img/index/pht-menu02.webp",
+    "official_url": "https://sumiyaki-unafuji.com/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.884906,
+          35.170382
+        ],
+        "distance": "約170m"
+      },
+      {
+        "name": "女子トイレ",
+        "position": [
+          136.883428,
+          35.169187
+        ],
+        "distance": "約190m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.885945,
+          35.170553
+        ],
+        "distance": "約190m"
+      },
+      {
+        "name": "男子トイレ",
+        "position": [
+          136.883391,
+          35.169188
+        ],
+        "distance": "約190m"
+      },
+      {
+        "name": "うまいもん通り広小路口 多機能トイレ",
+        "position": [
+          136.883368,
+          35.169209
+        ],
+        "distance": "約190m"
+      }
+    ]
+  },
+  {
+    "name": "二郎 柳橋店",
+    "title": "焼肉＆手打ち冷麺 二郎 柳橋店",
+    "position": [
+      136.888078,
+      35.16941
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "美食名店",
+    "district": "名駅",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "燒肉（A5和牛）、手打冷麵",
+    "price_range": "午間套餐約1,320円起／晚餐套餐約4,500-5,000円",
+    "booking_required": true,
+    "image": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/yqdmizer/5817925/gskk_w1200h550.jpg",
+    "official_url": "https://jiroyanagibashi.owst.jp/",
+    "days": [
+      "Day2"
+    ],
+    "restrooms": [
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.885945,
+          35.170553
+        ],
+        "distance": "約230m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.884906,
+          35.170382
+        ],
+        "distance": "約310m"
+      },
+      {
+        "name": "大東海ビル 地下1階トイレ",
+        "position": [
+          136.887889,
+          35.172464
+        ],
+        "distance": "約340m"
+      },
+      {
+        "name": "女子トイレ",
+        "position": [
+          136.883428,
+          35.169187
+        ],
+        "distance": "約420m"
+      },
+      {
+        "name": "男子トイレ",
+        "position": [
+          136.883391,
+          35.169188
+        ],
+        "distance": "約430m"
+      }
+    ]
+  },
+  {
+    "name": "マ・メゾン 東桜本店",
+    "title": "熟成豚とんかつ マ・メゾン 東桜本店",
+    "position": [
+      136.919113,
+      35.171932
+    ],
+    "type": "food",
+    "category": "美食名店",
+    "district": "新栄",
+    "station": "新栄町站（地下鐵東山線）",
+    "lines": [
+      "地下鐵東山線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "熟成豬排（とんかつ）",
+    "booking_required": false,
+    "image": "https://www.mameton.jp/img/shop/higashi/photo01.jpg",
+    "official_url": "https://www.mameton.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "布池公園 公衆トイレ",
+        "position": [
+          136.922607,
+          35.173119
+        ],
+        "distance": "約340m"
+      }
+    ]
+  },
+  {
+    "name": "挽き肉のトリコ 栄店",
+    "title": "牛肉漢堡排 挽き肉のトリコ 栄店",
+    "position": [
+      136.903427,
+      35.163792
+    ],
+    "type": "food",
+    "category": "美食名店",
+    "district": "榮",
+    "station": "矢場町站（地下鐵名城線）",
+    "lines": [
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "牛肉100%手打漢堡排",
+    "booking_required": false,
+    "image": "https://imgfp.hotp.jp/IMGH/07/24/P046870724/P046870724_480.jpg",
+    "official_url": "https://hikiniku-no-toriko.studio.site/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.903666,
+          35.162539
+        ],
+        "distance": "約140m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.904082,
+          35.162218
+        ],
+        "distance": "約180m"
+      },
+      {
+        "name": "若宮大通り公園公衆トイレ",
+        "position": [
+          136.905313,
+          35.162501
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "バリアフリートイレ",
+        "position": [
+          136.905469,
+          35.165051
+        ],
+        "distance": "約230m"
+      },
+      {
+        "name": "白川公園北川公衆トイレ",
+        "position": [
+          136.901235,
+          35.165138
+        ],
+        "distance": "約250m"
+      }
+    ]
+  },
+  {
+    "name": "犬山 栗子蒙布朗",
+    "title": "犬山ぐーまる（栗子蒙布朗）",
+    "position": [
+      136.9393179,
+      35.3826142
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "點心輕食",
+    "district": "犬山城下町",
+    "station": "犬山站（名鐵）",
+    "lines": [
+      "名鐵犬山線",
+      "名鐵小牧線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "snack",
+    "cuisine": "栗子蒙布朗霜淇淋",
+    "price_range": "約600円",
+    "booking_required": false,
+    "image": "https://image.ekiten.jp/contribution/80055003/20230331210817_42430279.JPG?size=ogp",
+    "days": [
+      "Day5"
+    ],
+    "restrooms": [
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.939475,
+          35.381214
+        ],
+        "distance": "約160m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.93946,
+          35.381066
+        ],
+        "distance": "約170m"
+      },
+      {
+        "name": "針綱神社公衆トイレ",
+        "position": [
+          136.939775,
+          35.386486
+        ],
+        "distance": "約430m"
+      },
+      {
+        "name": "犬山丸の内緑地公衆トイレ",
+        "position": [
+          136.936939,
+          35.386235
+        ],
+        "distance": "約460m"
+      },
+      {
+        "name": "内田防災公園 公衆トイレ",
+        "position": [
+          136.942391,
+          35.386233
+        ],
+        "distance": "約490m"
+      }
+    ]
+  },
+  {
+    "name": "犬山牛太郎",
+    "title": "犬山牛太郎（飛驒牛握壽司）Inuyama Gyutaro",
+    "position": [
+      136.93942,
+      35.38191
+    ],
+    "type": "food",
+    "category": "美食名店",
+    "district": "犬山城下町",
+    "station": "犬山站（名鐵）",
+    "lines": [
+      "名鐵犬山線",
+      "名鐵小牧線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "snack",
+    "cuisine": "飛驒牛握壽司",
+    "price_range": "2貫600円",
+    "booking_required": false,
+    "image": "https://inuyamania.jp/wp-content/uploads/2020/11/FDCAA48F-C159-48F2-8985-987C12406C91.jpg",
+    "official_url": "https://www.instagram.com/inuyama18group/",
+    "days": [
+      "Day5"
+    ],
+    "restrooms": [
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.939475,
+          35.381214
+        ],
+        "distance": "約80m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.93946,
+          35.381066
+        ],
+        "distance": "約90m"
+      }
+    ]
+  },
+  {
+    "name": "おかげ庵 栄広小路店",
+    "title": "甘味喫茶 おかげ庵 栄広小路店",
+    "position": [
+      136.902588,
+      35.168709
+    ],
+    "type": "food",
+    "category": "點心輕食",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "snack",
+    "cuisine": "和風甜點喫茶（善哉、抹茶甜點、早餐等）",
+    "booking_required": false,
+    "image": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/38647923.jpg",
+    "official_url": "https://www.komeda.co.jp/okagean/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "広小路本町(市バス) 5番",
+        "position": [
+          136.901995,
+          35.168906
+        ],
+        "distance": "約60m"
+      },
+      {
+        "name": "白川公園北川公衆トイレ",
+        "position": [
+          136.901235,
+          35.165138
+        ],
+        "distance": "約420m"
+      },
+      {
+        "name": "伏見駅 公衆トイレ",
+        "position": [
+          136.897911,
+          35.169158
+        ],
+        "distance": "約430m"
+      },
+      {
+        "name": "地下鉄伏見駅",
+        "position": [
+          136.897778,
+          35.169681
+        ],
+        "distance": "約450m"
+      },
+      {
+        "name": "ツルシゲ通り1 公衆トイレ",
+        "position": [
+          136.905325,
+          35.172394
+        ],
+        "distance": "約480m"
+      }
+    ]
+  },
+  {
+    "name": "白河 名駅店",
+    "title": "白河鰻魚飯 しら河 名駅店",
+    "position": [
+      136.881805,
+      35.173954
+    ],
+    "type": "food",
+    "category": "名古屋鄉土限定",
+    "district": "名駅",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "鰻魚料理（ひつまぶし鰻魚三吃）",
+    "booking_required": false,
+    "image": "https://hitsumabushi.jp/wp-content/uploads/2021/04/shirakawa_main.png",
+    "official_url": "https://hitsumabushi.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.882377,
+          35.176046
+        ],
+        "distance": "約240m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.882084,
+          35.171698
+        ],
+        "distance": "約250m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.88211,
+          35.170356
+        ],
+        "distance": "約400m"
+      },
+      {
+        "name": "新幹線名古屋駅改札内トイレ",
+        "position": [
+          136.881538,
+          35.169733
+        ],
+        "distance": "約470m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.884906,
+          35.170382
+        ],
+        "distance": "約490m"
+      }
+    ]
+  },
+  {
+    "name": "矢場とん 金鯱橫丁店",
+    "title": "矢場とん 名古屋城金鯱橫丁店",
+    "position": [
+      136.8992,
+      35.1829
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "名古屋鄉土限定",
+    "district": "三之丸",
+    "station": "名古屋城站（地下鐵名城線）",
+    "lines": [
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "味噌豬排（味噌カツ）",
+    "booking_required": false,
+    "image": "https://kinshachi-yokocho.com/wp/wp-content/uploads/2024/07/矢場とん-わらじとんかつ-scaled.jpg",
+    "official_url": "https://www.yabaton.com/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.897937,
+          35.182639
+        ],
+        "distance": "約120m"
+      },
+      {
+        "name": "正門公衆トイレ",
+        "position": [
+          136.897963,
+          35.183566
+        ],
+        "distance": "約130m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.900395,
+          35.183878
+        ],
+        "distance": "約150m"
+      },
+      {
+        "name": "ﾊﾞﾘｱﾌﾘｰ公衆トイレ",
+        "position": [
+          136.896886,
+          35.181524
+        ],
+        "distance": "約260m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.895934,
+          35.18319
+        ],
+        "distance": "約300m"
+      }
+    ]
+  },
+  {
+    "name": "矢場とん 名鉄百貨店本店",
+    "title": "矢場とん 名鉄百貨店本店",
+    "position": [
+      136.8812,
+      35.1698
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "名古屋鄉土限定",
+    "district": "名駅",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "味噌豬排（味噌カツ）",
+    "booking_required": false,
+    "image": "https://i0.wp.com/lunch.nagoya/wp-content/uploads/2023/11/IMG_2627-2.jpg?fit=1024%2C768&ssl=1",
+    "official_url": "https://www.yabaton.com/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "新幹線名古屋駅改札内トイレ",
+        "position": [
+          136.881538,
+          35.169733
+        ],
+        "distance": "約30m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.88211,
+          35.170356
+        ],
+        "distance": "約100m"
+      },
+      {
+        "name": "うまいもん通り広小路口 多機能トイレ",
+        "position": [
+          136.883368,
+          35.169209
+        ],
+        "distance": "約210m"
+      },
+      {
+        "name": "男子トイレ",
+        "position": [
+          136.883391,
+          35.169188
+        ],
+        "distance": "約210m"
+      },
+      {
+        "name": "女子トイレ",
+        "position": [
+          136.883428,
+          35.169187
+        ],
+        "distance": "約210m"
+      }
+    ]
+  },
+  {
+    "name": "矢場とん 榮店",
+    "title": "矢場とん 栄セントライズ店",
+    "position": [
+      136.905446,
+      35.167981
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "名古屋鄉土限定",
+    "district": "榮",
+    "station": "矢場町站（地下鐵名城線）",
+    "lines": [
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "味噌豬排（味噌カツ）",
+    "booking_required": false,
+    "image": "https://jice.homemate-research.com/pubuser1/pubuser_facility_img/0/9/3/1060050390/0000040723/1060050390_0000040723_4.jpg",
+    "official_url": "https://www.yabaton.com/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "トイレ",
+        "position": [
+          136.908596,
+          35.168135
+        ],
+        "distance": "約290m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908276,
+          35.169612
+        ],
+        "distance": "約310m"
+      },
+      {
+        "name": "バリアフリートイレ",
+        "position": [
+          136.905469,
+          35.165051
+        ],
+        "distance": "約330m"
+      },
+      {
+        "name": "広小路本町(市バス) 5番",
+        "position": [
+          136.901995,
+          35.168906
+        ],
+        "distance": "約330m"
+      },
+      {
+        "name": "栄町駅 バリアフリートイレ",
+        "position": [
+          136.908835,
+          35.170823
+        ],
+        "distance": "約440m"
+      }
+    ]
+  },
+  {
+    "name": "矢場とん 矢場町本店",
+    "title": "矢場とん 矢場町本店",
+    "position": [
+      136.90625,
+      35.161633
+    ],
+    "type": "food",
+    "category": "名古屋鄉土限定",
+    "district": "大須",
+    "station": "矢場町站（地下鐵名城線）",
+    "lines": [
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "味噌豬排（味噌カツ）",
+    "booking_required": false,
+    "image": "https://www.yabaton.com/themes/group_yabaton/images/pict_shop_main01.jpg",
+    "official_url": "https://www.yabaton.com/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "若宮大通り公園公衆トイレ",
+        "position": [
+          136.905313,
+          35.162501
+        ],
+        "distance": "約130m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.907153,
+          35.162846
+        ],
+        "distance": "約160m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.904082,
+          35.162218
+        ],
+        "distance": "約210m"
+      },
+      {
+        "name": "裏門前公園公衆トイレ",
+        "position": [
+          136.903833,
+          35.161342
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "第1アメ横ビル 2Fトイレ",
+        "position": [
+          136.905377,
+          35.15975
+        ],
+        "distance": "約220m"
+      }
+    ]
+  },
+  {
+    "name": "矢田かつ",
+    "title": "矢田かつ",
+    "position": [
+      136.941696,
+      35.193977
+    ],
+    "type": "food",
+    "category": "名古屋鄉土限定",
+    "district": "大曾根",
+    "station": "大曾根站（地下鐵名城線／JR中央線／名鐵瀬戸線）",
+    "lines": [
+      "地下鐵名城線",
+      "JR中央線",
+      "名鐵瀬戸線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "味噌豬排（もち豚味噌かつ）",
+    "booking_required": false,
+    "image": "https://yadakatsu.com/wordpress_ya/wp-content/uploads/2020/10/top-katu-1-scaled-1200x700.jpg",
+    "official_url": "https://yadakatsu.com/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "白山神社 公衆トイレ",
+        "position": [
+          136.942008,
+          35.195812
+        ],
+        "distance": "約210m"
+      },
+      {
+        "name": "山田東公園 公衆トイレ",
+        "position": [
+          136.93939,
+          35.194213
+        ],
+        "distance": "約210m"
+      },
+      {
+        "name": "木ケ崎公園公衆トイレ",
+        "position": [
+          136.946163,
+          35.195227
+        ],
+        "distance": "約430m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.945256,
+          35.196757
+        ],
+        "distance": "約450m"
+      }
+    ]
+  },
+  {
+    "name": "艾許奶油 Échiré",
+    "title": "艾許奶油 Échiré エシレ・パティスリー オ ブール名古屋",
+    "position": [
+      136.882779,
+      35.171423
+    ],
+    "type": "food",
+    "category": "點心輕食",
+    "district": "名駅",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "snack",
+    "cuisine": "法國エシレ發酵奶油甜點、奶油夾心酥餅（サブレサンド）",
+    "booking_required": false,
+    "image": "https://www.kataoka.com/echire/patisserieaubeurre/nagoya/images/shop_img01.jpg",
+    "official_url": "https://www.kataoka.com/echire/patisserieaubeurre/nagoya/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.882084,
+          35.171698
+        ],
+        "distance": "約70m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.88211,
+          35.170356
+        ],
+        "distance": "約130m"
+      },
+      {
+        "name": "新幹線名古屋駅改札内トイレ",
+        "position": [
+          136.881538,
+          35.169733
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.884906,
+          35.170382
+        ],
+        "distance": "約230m"
+      },
+      {
+        "name": "うまいもん通り広小路口 多機能トイレ",
+        "position": [
+          136.883368,
+          35.169209
+        ],
+        "distance": "約250m"
+      }
+    ]
+  },
+  {
+    "name": "蓬莱軒 あつた 神宮店",
+    "title": "蓬莱軒 あつた 神宮店",
+    "position": [
+      136.908564,
+      35.12227
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "名古屋鄉土限定",
+    "district": "熱田",
+    "station": "神宮前站（名鐵）",
+    "lines": [
+      "名鐵名古屋本線",
+      "名鐵常滑線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "鰻魚飯三吃（ひつまぶし）",
+    "price_range": "約4,000-5,000円/人",
+    "booking_required": false,
+    "image": "https://www.houraiken.com/jingu/shared/img/index/key.jpg",
+    "official_url": "https://www.houraiken.com/jingu/",
+    "days": [
+      "Day6"
+    ],
+    "restrooms": [
+      {
+        "name": "熱田神宮 トイレ",
+        "position": [
+          136.908207,
+          35.122799
+        ],
+        "distance": "約70m"
+      },
+      {
+        "name": "熱田神宮 公衆トイレ",
+        "position": [
+          136.908079,
+          35.124746
+        ],
+        "distance": "約280m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.909448,
+          35.125006
+        ],
+        "distance": "約310m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.910316,
+          35.125951
+        ],
+        "distance": "約440m"
+      },
+      {
+        "name": "宮の渡し公園トイレ",
+        "position": [
+          136.906049,
+          35.118507
+        ],
+        "distance": "約480m"
+      }
+    ]
+  },
+  {
+    "name": "蓬莱軒 本店",
+    "title": "蓬莱軒 本店（陣屋本店）",
+    "position": [
+      136.906723,
+      35.12011
+    ],
+    "type": "food",
+    "category": "名古屋鄉土限定",
+    "district": "熱田",
+    "station": "神宮前站（名鐵）",
+    "lines": [
+      "名鐵名古屋本線",
+      "名鐵常滑線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "鰻魚飯三吃（ひつまぶし）",
+    "price_range": "約4,000-5,000円/人",
+    "booking_required": false,
+    "image": "https://www.houraiken.com/shared/img/index/sec3_bg.jpg",
+    "official_url": "https://www.houraiken.com/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "宮の渡し公園トイレ",
+        "position": [
+          136.906049,
+          35.118507
+        ],
+        "distance": "約190m"
+      },
+      {
+        "name": "熱田神宮 トイレ",
+        "position": [
+          136.908207,
+          35.122799
+        ],
+        "distance": "約330m"
+      },
+      {
+        "name": "内田橋公園 公衆トイレ",
+        "position": [
+          136.908497,
+          35.117338
+        ],
+        "distance": "約350m"
+      },
+      {
+        "name": "大瀬子公園 トイレ",
+        "position": [
+          136.903025,
+          35.121247
+        ],
+        "distance": "約360m"
+      }
+    ]
+  },
+  {
+    "name": "覚王山大福 上前津店",
+    "title": "覚王山フルーツ大福 弁才天 上前津店",
+    "position": [
+      136.906235,
+      35.159687
+    ],
+    "type": "food",
+    "category": "點心輕食",
+    "district": "大須",
+    "station": "上前津站（地下鐵鶴舞線・名城線）",
+    "lines": [
+      "地下鐵鶴舞線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "snack",
+    "cuisine": "水果大福",
+    "booking_required": false,
+    "image": "https://ec.benzaiten-daifuku.jp/cdn/shop/files/Mask_group.png?v=1727075300",
+    "official_url": "https://ec.benzaiten-daifuku.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "第1アメ横ビル 2Fトイレ",
+        "position": [
+          136.905377,
+          35.15975
+        ],
+        "distance": "約80m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.908387,
+          35.160602
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "裏門前公園公衆トイレ",
+        "position": [
+          136.903833,
+          35.161342
+        ],
+        "distance": "約290m"
+      },
+      {
+        "name": "若宮大通り公園公衆トイレ",
+        "position": [
+          136.905313,
+          35.162501
+        ],
+        "distance": "約320m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.904082,
+          35.162218
+        ],
+        "distance": "約340m"
+      }
+    ]
+  },
+  {
+    "name": "覚王山大福",
+    "title": "覚王山フルーツ大福 弁才天 大須店",
+    "position": [
+      136.901245,
+      35.15929
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "點心輕食",
+    "district": "大須",
+    "station": "大須觀音站（地下鐵名城線）",
+    "lines": [
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "snack",
+    "cuisine": "水果大福",
+    "booking_required": false,
+    "image": "https://tblg.k-img.com/restaurant/images/Rvw/367746/640x640_rect_db94f0c963654644648fded8f35091ad.jpg",
+    "official_url": "https://benzaiten-daifuku.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "那古野古墳前 公衆トイレ",
+        "position": [
+          136.901104,
+          35.159637
+        ],
+        "distance": "約40m"
+      },
+      {
+        "name": "大須観音 公衆トイレ",
+        "position": [
+          136.899226,
+          35.159116
+        ],
+        "distance": "約180m"
+      },
+      {
+        "name": "公衆トイレ（若宮大通公園 白川前駐車場）",
+        "position": [
+          136.900033,
+          35.161908
+        ],
+        "distance": "約310m"
+      },
+      {
+        "name": "裏門前公園公衆トイレ",
+        "position": [
+          136.903833,
+          35.161342
+        ],
+        "distance": "約330m"
+      },
+      {
+        "name": "第1アメ横ビル 2Fトイレ",
+        "position": [
+          136.905377,
+          35.15975
+        ],
+        "distance": "約380m"
+      }
+    ]
+  },
+  {
+    "name": "豚捨 中日ビル店",
+    "title": "豚捨 中日ビル店",
+    "position": [
+      136.909457,
+      35.168945
+    ],
+    "type": "food",
+    "interest": 4,
+    "category": "美食名店",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "dinner",
+    "cuisine": "伊勢牛（松阪牛之根源）壽喜燒",
+    "booking_required": true,
+    "image": "https://butasute.com/cmsb/wp-content/themes/butasute/img/shop7.jpg",
+    "official_url": "https://butasute.com/shop/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "トイレ",
+        "position": [
+          136.908596,
+          35.168135
+        ],
+        "distance": "約120m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908276,
+          35.169612
+        ],
+        "distance": "約130m"
+      },
+      {
+        "name": "栄町駅 バリアフリートイレ",
+        "position": [
+          136.908835,
+          35.170823
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "原内科クリニック",
+        "position": [
+          136.911934,
+          35.167725
+        ],
+        "distance": "約260m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.90955,
+          35.171728
+        ],
+        "distance": "約310m"
+      }
+    ]
+  },
+  {
+    "name": "イチバンケン 名駅店",
+    "title": "豚骨強棒麵 イチバンケン 名駅店",
+    "position": [
+      136.883911,
+      35.176472
+    ],
+    "type": "food",
+    "category": "美食名店",
+    "district": "名駅",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "豚骨強棒麵（ちゃんぽん）",
+    "price_range": "¥1,000-2,000",
+    "booking_required": false,
+    "image": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/38833212.jpg",
+    "official_url": "https://www.bestmore.jp/",
+    "days": [
+      "Day3"
+    ],
+    "restrooms": [
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.882377,
+          35.176046
+        ],
+        "distance": "約150m"
+      },
+      {
+        "name": "江西公園公衆トイレ",
+        "position": [
+          136.884629,
+          35.179761
+        ],
+        "distance": "約370m"
+      },
+      {
+        "name": "新道中央公園 公衆トイレ",
+        "position": [
+          136.88744,
+          35.179403
+        ],
+        "distance": "約460m"
+      }
+    ]
+  },
+  {
+    "name": "鈴波本店",
+    "title": "鈴波 本店 Suzunami",
+    "position": [
+      136.906281,
+      35.166916
+    ],
+    "type": "food",
+    "category": "美食名店",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "魚介味醂粕漬定食",
+    "price_range": "約1,760円/套餐（午餐）",
+    "booking_required": false,
+    "image": "https://www.suzunami.co.jp/img/top_image.jpg",
+    "official_url": "https://www.suzunami.co.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "バリアフリートイレ",
+        "position": [
+          136.905469,
+          35.165051
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.908596,
+          35.168135
+        ],
+        "distance": "約250m"
+      },
+      {
+        "name": "久屋広場西トイレ",
+        "position": [
+          136.908728,
+          35.164578
+        ],
+        "distance": "約340m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908276,
+          35.169612
+        ],
+        "distance": "約350m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.90934,
+          35.164547
+        ],
+        "distance": "約380m"
+      }
+    ]
+  },
+  {
+    "name": "シェフ 名駅西店",
+    "title": "鐵板打滷麵 スパゲッティハウス シェフ 名駅西店",
+    "position": [
+      136.87558,
+      35.170128
+    ],
+    "type": "food",
+    "category": "名古屋鄉土限定",
+    "district": "名駅",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "鐵板打滷麵（あんかけスパゲティ）",
+    "booking_required": false,
+    "image": "https://c-mr.gnst.jp/cont/menu_image/d8/f2/4598216_l.jpeg",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "則武公園公衆トイレ",
+        "position": [
+          136.875412,
+          35.171284
+        ],
+        "distance": "約130m"
+      },
+      {
+        "name": "牧野公園 公衆トイレ",
+        "position": [
+          136.877756,
+          35.168335
+        ],
+        "distance": "約280m"
+      }
+    ]
+  },
+  {
+    "name": "雀おどり總本店",
+    "title": "雀おどり總本店",
+    "position": [
+      136.906965,
+      35.164567
+    ],
+    "type": "food",
+    "category": "名古屋鄉土限定",
+    "district": "榮",
+    "station": "矢場町站（地下鐵名城線）",
+    "lines": [
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "snack",
+    "cuisine": "和菓子・ういろ・かき氷・善哉",
+    "booking_required": false,
+    "image": "https://ximg.retty.me/crop/s388x388/q80/das/-/retty/img_repo/2l/01/39420519.jpg",
+    "official_url": "https://suzumeodori.co.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "バリアフリートイレ",
+        "position": [
+          136.905469,
+          35.165051
+        ],
+        "distance": "約150m"
+      },
+      {
+        "name": "久屋広場西トイレ",
+        "position": [
+          136.908728,
+          35.164578
+        ],
+        "distance": "約160m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.907153,
+          35.162846
+        ],
+        "distance": "約190m"
+      },
+      {
+        "name": "はぐくみ側 公衆トイレ",
+        "position": [
+          136.909105,
+          35.163774
+        ],
+        "distance": "約210m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.90934,
+          35.164547
+        ],
+        "distance": "約220m"
+      }
+    ]
+  },
+  {
+    "name": "青柳総本家 大須本店",
+    "title": "青柳総本家 大須本店",
+    "position": [
+      136.8999,
+      35.1591
+    ],
+    "type": "food",
+    "interest": 3,
+    "category": "名古屋鄉土限定",
+    "district": "大須",
+    "station": "大須觀音站（地下鐵名城線）",
+    "lines": [
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "snack",
+    "cuisine": "和菓子（外郎糕、蛙饅頭）",
+    "booking_required": false,
+    "image": "https://www.aoyagiuirou.co.jp/assets/img/meta/ogp_img.jpg",
+    "official_url": "https://www.aoyagiuirou.co.jp/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "大須観音 公衆トイレ",
+        "position": [
+          136.899226,
+          35.159116
+        ],
+        "distance": "約60m"
+      },
+      {
+        "name": "那古野古墳前 公衆トイレ",
+        "position": [
+          136.901104,
+          35.159637
+        ],
+        "distance": "約120m"
+      },
+      {
+        "name": "公衆トイレ（若宮大通公園 白川前駐車場）",
+        "position": [
+          136.900033,
+          35.161908
+        ],
+        "distance": "約310m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.897339,
+          35.161873
+        ],
+        "distance": "約390m"
+      },
+      {
+        "name": "トイレ",
+        "position": [
+          136.899768,
+          35.1556
+        ],
+        "distance": "約390m"
+      }
+    ]
+  },
+  {
+    "name": "風来坊 名駅店",
+    "title": "風来坊 名駅センチュリー豊田ビル店",
+    "position": [
+      136.886662,
+      35.169036
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "名古屋鄉土限定",
+    "district": "名駅",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "dinner",
+    "cuisine": "名古屋名物手羽先（炸雞翅）",
+    "image": "https://furaibou.com/furaibou/wp-content/uploads/t_photo_meiekicentury.jpg",
+    "official_url": "https://furaibou.com/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.885945,
+          35.170553
+        ],
+        "distance": "約180m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.884906,
+          35.170382
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "女子トイレ",
+        "position": [
+          136.883428,
+          35.169187
+        ],
+        "distance": "約290m"
+      },
+      {
+        "name": "男子トイレ",
+        "position": [
+          136.883391,
+          35.169188
+        ],
+        "distance": "約300m"
+      },
+      {
+        "name": "うまいもん通り広小路口 多機能トイレ",
+        "position": [
+          136.883368,
+          35.169209
+        ],
+        "distance": "約300m"
+      }
+    ]
+  },
+  {
+    "name": "風来坊 栄店",
+    "title": "風来坊 栄店",
+    "position": [
+      136.912805,
+      35.169057
+    ],
+    "type": "food",
+    "category": "名古屋鄉土限定",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "dinner",
+    "cuisine": "名古屋名物手羽先（炸雞翅）",
+    "booking_required": "可透過官網系統預約",
+    "image": "https://furaibou.com/furaibou/wp-content/uploads/sakae.jpg",
+    "official_url": "https://furaibou.com/",
+    "days": [
+      "Day3"
+    ]
+  },
+  {
+    "name": "鳥開總本家",
+    "title": "鳥開總本家",
+    "position": [
+      136.880236,
+      35.170423
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "名古屋鄉土限定",
+    "district": "名駅",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "名古屋コーチン（名古屋交趾雞）親子丼・炸雞翅・炭火烤雞肉串",
+    "booking_required": false,
+    "image": "https://www.tori-kai.com/wp/wp-content/themes/torikai/images/top/teaser_cp@2x.png",
+    "official_url": "https://www.tori-kai.com/shop/esca.html",
+    "days": [
+      "Day5"
+    ],
+    "restrooms": [
+      {
+        "name": "新幹線名古屋駅改札内トイレ",
+        "position": [
+          136.881538,
+          35.169733
+        ],
+        "distance": "約140m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.88211,
+          35.170356
+        ],
+        "distance": "約170m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.882084,
+          35.171698
+        ],
+        "distance": "約220m"
+      },
+      {
+        "name": "うまいもん通り広小路口 多機能トイレ",
+        "position": [
+          136.883368,
+          35.169209
+        ],
+        "distance": "約320m"
+      },
+      {
+        "name": "男子トイレ",
+        "position": [
+          136.883391,
+          35.169188
+        ],
+        "distance": "約320m"
+      }
+    ]
+  },
+  {
+    "name": "啜る 丸の内本店",
+    "title": "鶏そば 啜る 丸の内本店",
+    "position": [
+      136.898148,
+      35.17445
+    ],
+    "type": "food",
+    "category": "美食名店",
+    "district": "榮",
+    "station": "丸之內站（地下鐵鶴舞線・櫻通線）",
+    "lines": [
+      "地下鐵鶴舞線",
+      "地下鐵櫻通線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "鶏白湯拉麵（エスプーマ系）",
+    "booking_required": false,
+    "image": "https://torisoba-susuru.com/home/wp-content/uploads/2021/11/susuru_Espuma-1024x342.png",
+    "official_url": "https://torisoba-susuru.com/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "丸の内駅構内トイレ",
+        "position": [
+          136.896877,
+          35.174357
+        ],
+        "distance": "約120m"
+      },
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.89898,
+          35.177302
+        ],
+        "distance": "約330m"
+      },
+      {
+        "name": "愛知縣護國神社 参拝者トイレ",
+        "position": [
+          136.899384,
+          35.178574
+        ],
+        "distance": "約470m"
+      },
+      {
+        "name": "本町公園 ﾊﾞﾘｱﾌﾘｰトイレ",
+        "position": [
+          136.902385,
+          35.177158
+        ],
+        "distance": "約490m"
+      }
+    ]
+  },
+  {
+    "name": "牛次郎 名古屋駅店",
+    "title": "麺屋 牛次郎 名古屋駅店",
+    "position": [
+      136.876419,
+      35.170071
+    ],
+    "type": "food",
+    "category": "美食名店",
+    "district": "名駅",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "lunch",
+    "cuisine": "黑毛牛骨拉麵",
+    "booking_required": false,
+    "image": "https://www.gyujiro-ramen.com/_src/121169/img20220822140238130956.jpg",
+    "official_url": "https://www.gyujiro-ramen.com/",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "則武公園公衆トイレ",
+        "position": [
+          136.875412,
+          35.171284
+        ],
+        "distance": "約160m"
+      },
+      {
+        "name": "牧野公園 公衆トイレ",
+        "position": [
+          136.877756,
+          35.168335
+        ],
+        "distance": "約230m"
+      },
+      {
+        "name": "新幹線名古屋駅改札内トイレ",
+        "position": [
+          136.881538,
+          35.169733
+        ],
+        "distance": "約470m"
+      }
+    ]
+  },
+  {
+    "name": "麺屋獅子丸",
+    "title": "麺屋獅子丸",
+    "position": [
+      136.87936,
+      35.174461
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "美食名店",
+    "district": "名古屋站前",
+    "station": "名古屋站",
+    "lines": [
+      "JR東海道線",
+      "JR中央線",
+      "名鐵名古屋本線",
+      "地下鐵東山線",
+      "地下鐵櫻通線",
+      "あおなみ線"
+    ],
+    "status": "researching",
+    "priority": "optional",
+    "meal_slot": "lunch",
+    "cuisine": "拉麵",
+    "booking_required": false,
+    "image": "https://www.menya-hanzo.com/shared/img/shared/shishimaru.jpg",
+    "official_url": "https://www.menya-hanzo.com/shishimaru.html",
+    "days": [],
+    "restrooms": [
+      {
+        "name": "公衆トイレ",
+        "position": [
+          136.882377,
+          35.176046
+        ],
+        "distance": "約330m"
+      },
+      {
+        "name": "亀島ふれあい公園 ﾊﾞﾘｱﾌﾘｰトイレ",
+        "position": [
+          136.876237,
+          35.176537
+        ],
+        "distance": "約370m"
+      },
+      {
+        "name": "女性用公衆トイレ",
+        "position": [
+          136.882084,
+          35.171698
+        ],
+        "distance": "約390m"
+      }
+    ]
+  },
+  {
+    "name": "黒豚屋らむちぃ",
+    "title": "黒豚屋らむちぃ",
+    "position": [
+      136.907898,
+      35.166769
+    ],
+    "type": "food",
+    "interest": 5,
+    "category": "美食名店",
+    "district": "榮",
+    "station": "榮站（地下鐵東山線・名城線）",
+    "lines": [
+      "地下鐵東山線",
+      "地下鐵名城線"
+    ],
+    "status": "researching",
+    "priority": "nice-to-have",
+    "meal_slot": "dinner",
+    "cuisine": "黑豚味噌豬排",
+    "booking_required": false,
+    "image": "https://nagoya-meshi.com/wp-content/uploads/2025/10/1_20251029_121949-820x540.jpeg",
+    "days": [
+      "Day3"
+    ],
+    "restrooms": [
+      {
+        "name": "トイレ",
+        "position": [
+          136.908596,
+          35.168135
+        ],
+        "distance": "約160m"
+      },
+      {
+        "name": "久屋広場西トイレ",
+        "position": [
+          136.908728,
+          35.164578
+        ],
+        "distance": "約260m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.90934,
+          35.164547
+        ],
+        "distance": "約280m"
+      },
+      {
+        "name": "バリアフリートイレ",
+        "position": [
+          136.905469,
+          35.165051
+        ],
+        "distance": "約290m"
+      },
+      {
+        "name": "久屋大通公園 公衆トイレ",
+        "position": [
+          136.908276,
+          35.169612
+        ],
+        "distance": "約320m"
+      }
+    ]
+  }
+]
